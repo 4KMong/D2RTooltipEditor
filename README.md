@@ -35,6 +35,65 @@ The application is portable. No installer is required.
 - Korean / English UI
 - Optional Windows `.txt` context-menu integration
 
+## Why TooltipEditor Uses Left-Aligned Tooltips by Default
+
+TooltipEditor uses **left alignment as its default preview layout** because left-aligned tooltip text can also be implemented directly in Diablo II: Resurrected's actual UI JSON data. It is not only an editor-side visual preference.
+
+In extracted D2R UI JSON, a tooltip-bearing UI object can define its text through `fields.tooltipString` and its rendering style through `fields.tooltipStyle`. Horizontal alignment is controlled by:
+
+```text
+fields.tooltipStyle.fontStyle.alignment.h
+```
+
+To make a tooltip left-aligned, set that value to `"left"`.
+
+For example, a tooltip object may contain:
+
+```json
+{
+  "fields": {
+    "tooltipString": "@SomeTooltipKey",
+    "tooltipStyle": {
+      "fontStyle": {
+        "alignment": {
+          "h": "left",
+          "v": "center"
+        }
+      }
+    }
+  }
+}
+```
+
+If the object already has a `tooltipStyle`, you normally only need to change or add the horizontal alignment value rather than replacing the entire style block:
+
+```json
+"alignment": {
+  "h": "left",
+  "v": "center"
+}
+```
+
+For multiline tooltip layouts, a style may also explicitly use standard newline handling:
+
+```json
+"tooltipStyle": {
+  "fontStyle": {
+    "options": {
+      "newlineHandling": "standard"
+    },
+    "alignment": {
+      "h": "left",
+      "v": "center"
+    }
+  }
+}
+```
+
+The exact UI JSON file and object depend on the panel or tooltip being modified, but the principle is the same: find the UI object that owns the `tooltipString` and apply the desired `tooltipStyle` to that object.
+
+This is why TooltipEditor's default left-aligned preview is useful when designing structured or multiline tooltip text: the same layout can be reproduced in-game by changing the corresponding D2R UI JSON.
+
 ## Important: Fonts and Unicode Glyphs
 
 > **Do not panic if some favorite characters in the Unicode Input window appear as squares or blank characters.**
