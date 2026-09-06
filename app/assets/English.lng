@@ -867,7 +867,25 @@
     "유니코드 즐겨찾기 초기화": "Unicode favorites reset",
     "유효한 유니코드 주소가 아닙니다.": "Invalid Unicode address.",
     "현재 폰트의 글리프 목록을 읽을 수 없습니다:": "Could not read the current font glyph list:",
-    "# 즐겨찾기 유니코드 주소만 저장합니다.": "# Only favorite Unicode addresses are stored."
+    "# 즐겨찾기 유니코드 주소만 저장합니다.": "# Only favorite Unicode addresses are stored.",
+    "편집 모드": "Edit Mode",
+    "편집 모드 종료": "Exit Edit Mode",
+    "즐겨찾기에 추가": "Add to Favorites",
+    "시스템 초기값으로 복원": "Restore System Defaults",
+    "즐겨찾기 변경은 편집 모드에서만 가능합니다.": "Favorites can be changed only in Edit Mode.",
+    "즐겨찾기에 추가합니다.": "Add this glyph to Favorites.",
+    "즐겨찾기에서 해제합니다. 해제 전 확인창이 표시됩니다.": "Remove this glyph from Favorites. A confirmation will be shown first.",
+    "즐겨찾기 편집 모드를 켜면 Ctrl/Shift 복수선택, 우클릭 일괄 추가/해제, Delete 키 삭제를 사용할 수 있습니다. 편집 모드에서는 글리프 입력과 기본값 지정이 비활성화됩니다.": "Turn on Favorites Edit Mode to use Ctrl/Shift multi-selection, right-click batch add/remove, and Delete to remove favorites. Glyph insertion and Set Default are disabled in Edit Mode.",
+    "선택한 글리프를 즐겨찾기에 추가합니다.": "Add the selected glyphs to Favorites.",
+    "선택한 글리프를 즐겨찾기에서 해제합니다. 해제 전 확인창이 표시됩니다.": "Remove the selected glyphs from Favorites. A confirmation will be shown first.",
+    "즐겨찾기와 기본값을 시스템 초기값으로 복원합니다.": "Restore Favorites and the default glyph to the system defaults.",
+    "즐겨찾기에 추가할 글리프가 없습니다.": "There are no selected glyphs to add to Favorites.",
+    "즐겨찾기에서 해제할 글리프가 없습니다.": "There are no selected favorite glyphs to remove.",
+    "즐겨찾기 해제 확인": "Confirm Favorite Removal",
+    "시스템 초기값 복원": "Restore System Defaults",
+    "즐겨찾기와 기본값을 시스템 초기값으로 복원하시겠습니까?": "Restore Favorites and the default glyph to the system defaults?",
+    "유니코드 즐겨찾기와 기본값을 시스템 초기값으로 복원했습니다.": "Unicode Favorites and the default glyph were restored to the system defaults.",
+    "기본 폰트 미리보기는 내장된 D2R 바닐라 Kodia를 우선 사용하고, Kodia에 없는 글리프는 내장 바닐라 대체 폰트에서도 확인합니다. 커스텀 Unicode 글리프가 기본 게임 환경에서 어떻게 보일지 추측하기 위한 참고용입니다.": "The Base Font preview uses the bundled vanilla D2R Kodia first, then checks the bundled vanilla fallback font for glyphs Kodia does not contain. It is a reference for estimating how custom Unicode glyphs may appear in a default game environment."
   },
   "patterns": [
     [
@@ -1653,6 +1671,18 @@
     [
       "^(U\\+[0-9A-Fa-f]{4,6}) 즐겨찾기 해제$",
       "$1 removed from favorites"
+    ],
+    [
+      "^즐겨찾기에 ([0-9,]+)개 추가$",
+      "Added $1 glyph(s) to Favorites"
+    ],
+    [
+      "^즐겨찾기에서 ([0-9,]+)개 해제$",
+      "Removed $1 glyph(s) from Favorites"
+    ],
+    [
+      "^선택한 ([0-9,]+)개 글리프를 즐겨찾기에서 해제하시겠습니까\\?\\n([\\s\\S]+)$",
+      "Remove the $1 selected glyph(s) from Favorites?\n$2"
     ]
   ],
   "replacements": [
