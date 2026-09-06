@@ -1420,7 +1420,7 @@ function createFindReplaceBody(initialTab) {
         <button id="frReplaceOne" type="button" data-replace-only>바꾸기</button>
         <button id="frReplaceAll" type="button" data-replace-only>모두 바꾸기</button>
         <button id="frSwapStrings" class="fr-swap-button" type="button" disabled title="찾을 문자열과 바꿀 문자열을 서로 교환합니다.">바꿀 문자열 교환</button>
-        <button id="frPresetSwap" class="fr-swap-button" type="button" data-replace-only disabled title="찾을 문자열과 바꿀 문자열에 ÿc와 @Myc를 입력하고, 다시 누르면 서로 교환합니다.">ÿc ↔ @Myc</button>
+        <button id="frPresetSwap" class="fr-swap-button" type="button" data-replace-only disabled title="한국 D2R 모딩 커뮤니티에서 사용되는 코라비님 스타일의 @Myc 색상 별칭과 실제 ÿc 색상코드를 찾기/바꾸기에 입력합니다. 다시 누르면 변환 방향을 서로 바꿉니다. D2R의 공식 표기법은 아닙니다.">ÿc ↔ @Myc</button>
       </div>
       <p class="fr-note" data-text-only>편집창 기준에서는 입력값의 줄바꿈(<code>\\n</code>), 유니코드 글리프(<code>\\uXXXX</code>), 색상코드기호(<code>ÿ</code>)를 실제 줄바꿈/글리프로 해석합니다.<br>코드창 기준에서는 문자 그대로 찾습니다.<br><span class="fr-shortcut-line"><span class="fr-key">Enter</span>는 다음 찾기, <span class="fr-key">Ctrl+Enter</span>는 모두 찾기, <span class="fr-key fr-key-danger">Alt+Enter</span>는 바꾸기, 모두 바꾸기 단축키는 없습니다.</span></p>
       <div id="frResults" class="fr-results" data-text-only><div class="fr-empty">모두 찾기를 누르면 결과가 여기에 표시됩니다.</div></div>
