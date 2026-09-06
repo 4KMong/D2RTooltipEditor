@@ -1,0 +1,5 @@
+src-tauri/target/
+node_modules/
+log.txt
+.DS_Store
+Thumbs.db

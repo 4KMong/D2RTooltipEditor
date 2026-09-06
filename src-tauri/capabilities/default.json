@@ -1,0 +1,12 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Default capability for TooltipEditor main and startup splash windows.",
+  "windows": [
+    "main",
+    "startup-splash"
+  ],
+  "permissions": [
+    "core:default"
+  ]
+}

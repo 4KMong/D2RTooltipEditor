@@ -1,0 +1,2941 @@
+{
+  "format": "TTE_LANGUAGE_V1",
+  "locale": "en-US",
+  "code": "en",
+  "name": "English",
+  "strings": {
+    "D2R 툴팁편집기": "D2R Tooltip Editor",
+    "파일(": "File(",
+    "편집(": "Edit(",
+    "삽입(": "Insert(",
+    "찾기(": "Search(",
+    "보기(": "View(",
+    "설정(": "Settings(",
+    "정보(": "Info(",
+    "새 파일": "New File",
+    "열기..": "Open..",
+    "현재 파일 경로 열기..": "Open Current File Location..",
+    "저장": "Save",
+    "다른이름으로 저장..": "Save As..",
+    "현재 문서 닫기": "Close Current Document",
+    "종료": "Exit",
+    "실행취소": "Undo",
+    "다시 실행": "Redo",
+    "잘라내기": "Cut",
+    "클립보드에 현재 경로/파일명 복사": "Copy Current Path/Filename to Clipboard",
+    "복사": "Copy",
+    "일반 붙여넣기는 단축키(Ctrl+V)로만 이용": "Regular paste is available only with Ctrl+V",
+    "텍스트로 붙여넣기": "Paste as Text",
+    "삭제": "Delete",
+    "모두 선택": "Select All",
+    "텍스트 정리..": "Text Cleanup..",
+    "JSON 키 추출..": "Extract JSON Key..",
+    "탭 구현": "Implement Tabs",
+    "탭 복원..": "Restore Tabs..",
+    "양쪽 끝 공백 제거": "Trim Both Ends",
+    "행 시작 공백 제거": "Trim Leading Spaces",
+    "행 꼬리 공백 제거": "Trim Trailing Spaces",
+    "줄바꿈(EOL) 제거": "Remove Line Breaks (EOL)",
+    "중복 줄바꿈 제거": "Remove Duplicate Line Breaks",
+    "줄바꿈 및 공백 제거": "Remove Line Breaks and Spaces",
+    "탭 문자 제거": "Remove Tab Characters",
+    "0 너비 문자(U+2060) 입력": "Insert Zero-Width Character (U+2060)",
+    "모든 0 너비 문자(U+2060) 삭제": "Delete All Zero-Width Characters (U+2060)",
+    "유니코드 입력기..": "Unicode Input..",
+    "찾기..": "Find..",
+    "바꾸기..": "Replace..",
+    "색상변환..": "Convert Colors..",
+    "다음 탭": "Next Tab",
+    "이전 탭": "Previous Tab",
+    "행 번호 찾아가기..": "Go to Line..",
+    "편집창 자동 줄바꿈": "Wrap Editor Text",
+    "코드창 자동 줄바꿈": "Wrap Code Text",
+    "좌측 편집창으로 보기 (현재 기본값)": "Editor on Left (Current Default)",
+    "우측 편집창으로 보기": "Editor on Right",
+    "상단 편집창으로 보기": "Editor on Top",
+    "하단 편집창으로 보기": "Editor on Bottom",
+    "편집창만 보기": "Editor Only",
+    "코드창만 보기": "Code Only",
+    "환경설정..": "Preferences..",
+    "도움말": "Help",
+    "버전 정보": "About",
+    "도움말과 버전 정보": "Help and About",
+    "도구목록": "Toolbar",
+    "새 파일 Ctrl+N": "New File Ctrl+N",
+    "열기 Ctrl+O": "Open Ctrl+O",
+    "저장 Ctrl+S": "Save Ctrl+S",
+    "다른이름으로 저장 Ctrl+Shift+S": "Save As Ctrl+Shift+S",
+    "실행취소 Ctrl+Z": "Undo Ctrl+Z",
+    "다시 실행 Ctrl+Y": "Redo Ctrl+Y",
+    "잘라내기 Ctrl+X": "Cut Ctrl+X",
+    "복사 Ctrl+C": "Copy Ctrl+C",
+    "텍스트로 붙여넣기 Ctrl+Shift+V": "Paste as Text Ctrl+Shift+V",
+    "열기": "Open",
+    "다른 이름 저장": "Save As",
+    "스크롤 동기화": "Scroll Sync",
+    "문서 탭": "Document Tabs",
+    "새 문서 탭 추가": "Add New Document Tab",
+    "코드창": "Code",
+    "편집창": "Editor",
+    "코드창 패널": "Code Panel",
+    "편집창 패널": "Editor Panel",
+    "코드창과 편집창 너비 조절": "Resize Code and Editor Panes",
+    "상태표시줄": "Status Bar",
+    "코드창 상태": "Code Status",
+    "편집창 상태": "Editor Status",
+    "준비됨": "Ready",
+    "English": "English",
+    "한국어": "한국어",
+    "Language": "Language",
+    "환경설정": "Preferences",
+    "프로그램 종료": "Exit Program",
+    "트레이로 최소화": "Minimize to Tray",
+    "취소": "Cancel",
+    "확인": "OK",
+    "닫기": "Close",
+    "예": "Yes",
+    "아니오": "No",
+    "개발자 모드": "Developer Mode",
+    "이용 및 배포 안내": "Usage and Distribution Notice",
+    "배포 :": "Distribution:",
+    "제작자: JimSSng with ChatGPT (Nexus : 4KMong)": "Author: JimSSng with ChatGPT (Nexus: 4KMong)",
+    "1. 인벤 모드자료실 :": "1. Inven Mod Resources:",
+    "2. Nexus Mod :": "2. Nexus Mods:",
+    "3. GitHub :": "3. GitHub :",
+    "툴팁편집기 v1.0.0 (exe 버전)": "Tooltip Editor v1.0.0 (EXE version)",
+    "시스템 트레이 사용 (닫기 시 트레이로 보냄)": "Use System Tray (send to tray when closing)",
+    "Windows 쉘 메뉴": "Windows Shell Menu",
+    "txt 우클릭 메뉴에 \"D2R 툴팁편집기로 열기\" 추가": "Add \"Open with D2R Tooltip Editor\" to the .txt right-click menu",
+    "Windows 쉘 메뉴 적용 실패": "Failed to apply Windows shell menu",
+    "데이모드": "Light Mode",
+    "다크모드": "Dark Mode",
+    "데이모드로 전환": "Switch to Light Mode",
+    "다크모드로 전환": "Switch to Dark Mode",
+    "파일 위치 열기": "Open File Location",
+    "최근 파일목록 삭제": "Clear Recent Files",
+    "최근 문서 목록": "Recent Documents",
+    "편집창만": "Editor Only",
+    "코드창만": "Code Only",
+    "상단 편집창": "Editor on Top",
+    "하단 편집창": "Editor on Bottom",
+    "좌측 편집창": "Editor on Left",
+    "우측 편집창": "Editor on Right",
+    "왼쪽 맞춤": "Left Align",
+    "가운데 맞춤": "Center",
+    "오른쪽 맞춤": "Right Align",
+    "왼쪽 정렬": "Left Align",
+    "가운데 정렬": "Center Align",
+    "오른쪽 정렬": "Right Align",
+    "글꼴": "Font",
+    "대표 글꼴": "Primary Font",
+    "대체 글꼴": "Fallback Font",
+    "글꼴 크기": "Font Size",
+    "줄 간격": "Line Spacing",
+    "탭 너비": "Tab Width",
+    "행 번호 크기": "Line Number Size",
+    "행 번호 열 너비": "Line Number Column Width",
+    "색상": "Color",
+    "색상연결": "Color Mapping",
+    "색상 이름": "Color Name",
+    "색상 메모": "Color Note",
+    "색상 추가": "Add Color",
+    "색상 삭제": "Delete Color",
+    "색상 정렬": "Color Order",
+    "문자/Fn": "Character/Fn",
+    "Fn 단축키 편집": "Edit Fn Shortcut",
+    "새 입력 시 기본 색": "Default Color for New Input",
+    "매직 옵션 기본색": "Magic Option Default Color",
+    "찾을 문자열": "Find Text",
+    "바꿀 문자열": "Replace With",
+    "다음 찾기": "Find Next",
+    "모두 찾기": "Find All",
+    "모두 바꾸기": "Replace All",
+    "대소문자 구분": "Match Case",
+    "이전 방향": "Search Backward",
+    "되돌아찾기": "Wrap Around",
+    "모든 탭 전체": "All Tabs",
+    "일치:": "Matches:",
+    "대용량 모드": "Large-File Mode",
+    "visible 텍스트": "Visible Text",
+    "처리 중": "Processing",
+    "준비 중...": "Preparing...",
+    "설정 가져오기..": "Import Settings..",
+    "설정 내보내기..": "Export Settings..",
+    "전체 설정 초기화": "Reset All Settings",
+    "사용자 데이터 삭제": "Delete User Data",
+    "문서명 변경": "Rename Document",
+    "문서 복제": "Duplicate Document",
+    "문서명 변경..": "Rename Document..",
+    "문서 복제..": "Duplicate Document..",
+    "복제할 문서명": "Duplicate Document Name",
+    "유니코드 목록표": "Unicode Table",
+    "글리프 추가..": "Add Glyph..",
+    "글리프 삭제": "Delete Glyph",
+    "기본값 지정": "Set Default",
+    "기본값 해제": "Clear Default",
+    "목록 불러오기..": "Import List..",
+    "목록 내보내기..": "Export List..",
+    "초기화": "Reset",
+    "입력": "Insert",
+    "텍스트 정리": "Text Cleanup",
+    "공백": "Spaces",
+    "기타 문자": "Other Characters",
+    "행 시작": "Line Start",
+    "행 꼬리": "Line End",
+    "모든 공백": "All Spaces",
+    "다중 공백 → 단일 공백": "Collapse Multiple Spaces to One",
+    "줄바꿈(EOL)": "Line Breaks (EOL)",
+    "중복 줄바꿈": "Duplicate Line Breaks",
+    "불필요한 문자열": "Unwanted Characters",
+    "탭 문자": "Tab Character",
+    "탭 문자 교체": "Replace Tab Characters",
+    "탭 대신 넣을 문자열": "Replacement for Tabs",
+    "정리": "Clean Up",
+    "JSON 키 추출": "Extract JSON Key",
+    "키 추출": "Key Extraction",
+    "대상 언어": "Target Language",
+    "추출": "Extract",
+    "문서 표시 설정": "Document Display Settings",
+    "시작 시 문서 복원": "Restore Documents at Startup",
+    "최초 실행 테마": "Startup Theme",
+    "실행 시 창 상태": "Startup Window State",
+    "기본 저장 경로": "Default Save Folder",
+    "검색기록 삭제": "Clear Search History",
+    "파일을 놓으면 열기": "Drop File to Open",
+    "[TTE 내장] Vanilla": "[TTE Built-in] Vanilla",
+    "☾ 다크모드로 전환": "☾ Switch to Dark Mode",
+    "☀ 데이모드로 전환": "☀ Switch to Light Mode",
+    "글꼴 목록": "Font List",
+    "글꼴 목록 준비 중": "Preparing font list",
+    "글꼴 크기 줄이기": "Decrease Font Size",
+    "글꼴 크기 키우기": "Increase Font Size",
+    "렌더링 도구모음": "Rendering Toolbar",
+    "메뉴표시줄": "Menu Bar",
+    "모두 0 너비 문자(U+2060) 삭제": "Delete All Zero-Width Characters (U+2060)",
+    "칸": "spaces",
+    "코드창/편집창의 배치를 전환합니다.": "Change the Code/Editor pane arrangement.",
+    "환경설정의 현재 기본값 레이아웃으로 전환합니다.": "Switch to the current default layout from Preferences.",
+    "양쪽 창의 위치를 편집창 행 기준으로 최대한 맞춥니다.": "Keep both panes aligned as closely as possible by Editor line.",
+    "편집창에서 Tab 문자의 표시 폭을 조절합니다. 실제 탭 문자는 유지됩니다.": "Adjust the displayed width of Tab characters in the Editor. The actual Tab characters are preserved.",
+    "왼쪽 맞춤/오른쪽 맞춤에서만 유효합니다. 현재 글꼴/탭 너비 기준으로 탭 문자를 검은 점·공백 조합으로 변환합니다.": "Available only with left/right alignment. Converts tabs to black-dot and space sequences using the current font and tab width.",
+    "좌측 편집창 (기본값)": "Editor on Left (Default)",
+    "레이아웃": "Layout",
+    "레이아웃 선택": "Select Layout",
+    "기본값으로": "Default",
+    "글꼴 검색": "Search Fonts",
+    "지정 크기": "Preset Size",
+    "크기": "Size",
+    "탭": "Tab",
+    "설정 기본값": "Preference Defaults",
+    "편집창 정렬": "Editor Alignment",
+    "탭 복원": "Restore Tabs",
+    "텍스트 붙여넣기": "Paste Text",
+    "탭 너비 슬라이더": "Tab Width Slider",
+    "행 번호": "Line Number",
+    "저장되지 않음": "Not Saved",
+    "저장됨": "Saved",
+    "U+2060 삽입되어 있음": "U+2060 Inserted",
+    "U+2060 삽입되어있지 않음": "No U+2060",
+    "탭 삽입되어 있음": "Tab Inserted",
+    "탭 삽입되어있지 않음": "No Tabs",
+    "모드": "Mode",
+    "문서": "Document",
+    "커서": "Caret",
+    "주의": "Warning",
+    "오류": "Error",
+    "대용량 모드 · 색상 표시": "Large-File Mode · Colors On",
+    "Live 중지 (대용량모드)": "Live Paused (Large-File Mode)",
+    "편집/저장은 정상처리됨": "Editing and saving work normally",
+    "본 프로그램은 무료 비공식 팬 제작 도구이며, Blizzard Entertainment와 제휴 관계가 없고 Blizzard Entertainment가 승인하거나 후원한 공식 프로그램이 아닙니다. 상업적 이용은 금합니다.": "This program is a free, unofficial fan-made tool. It is not affiliated with, endorsed by, or sponsored by Blizzard Entertainment. Commercial use is prohibited.",
+    "더 나은 버전을 위해 자유롭게 수정 및 재배포할 수 있습니다. 다만 사용자 혼선을 막기 위해 배포물에 출처, 원저자, 그리고 수정의 기준이 된 원본 버전을 명확히 기재해 주시기 바랍니다.": "You may freely modify and redistribute this program to create a better version. To prevent user confusion, clearly state the source, original author, and the original version used as the basis for your modification.",
+    "원본을 수정하지 않고 공유하는 경우에는 파일을 별도로 재배포하기보다 위의 원 배포 링크를 안내해 주세요.": "When sharing the unmodified original, please direct users to the official distribution links above rather than re-uploading the files.",
+    "치명적인 오류나 의도된 기능이 정상적으로 작동하지 않는 부분의 보완을 제외하면, 추가 기능 또는 개선을 위한 업데이트 계획은 없습니다.": "Except for fixes to critical errors or intended features that do not work correctly, no additional feature or improvement updates are planned.",
+    "툴팁편집기 v1.0.0": "Tooltip Editor v1.0.0",
+    "검정": "Black",
+    "금색": "Gold",
+    "노랑": "Yellow",
+    "녹색": "Green",
+    "미색": "Ivory",
+    "백색": "White",
+    "보라": "Purple",
+    "분홍": "Pink",
+    "빨강": "Red",
+    "소색": "Tan",
+    "연청": "Light Blue",
+    "적갈": "Reddish Brown",
+    "주황": "Orange",
+    "진녹": "Dark Green",
+    "진홍": "Crimson",
+    "청록": "Teal",
+    "초록": "Green",
+    "파랑": "Blue",
+    "하늘": "Sky Blue",
+    "회색": "Gray",
+    "냉기 / 빙결": "Cold / Freeze",
+    "물리 / 방어": "Physical / Defense",
+    "번개 / 노랑": "Lightning / Yellow",
+    "수치 / 초록": "Values / Green",
+    "화염 / 강한 빨강": "Fire / Bright Red",
+    "달리기 / 발차기": "Run / Kick",
+    "강타 / 치명 / 패캐": "Crushing / Critical / FCR",
+    "스킬 / 마법 / 주황": "Skills / Magic / Orange",
+    "마나 회복 / 충전": "Mana Recovery / Recharge",
+    "모든 저항 / 핑크": "All Resistances / Pink",
+    "독": "Poison",
+    "마나": "Mana",
+    "작업": "Task",
+    "문서명": "Document Name",
+    "바꾸기": "Replace",
+    "생명력": "Life",
+    "속도류": "Speed",
+    "탭 입력": "Tab Input",
+    "행의 끝": "End of Line",
+    "행의 시작": "Start of Line",
+    "공백 제거": "Remove Spaces",
+    "기본 정렬": "Default Alignment",
+    "일반 흰색": "Standard White",
+    "최종 확인": "Final Confirmation",
+    "줄바꿈 제거": "Remove Line Breaks",
+    "찾아보기..": "Browse..",
+    "탭 구현 중": "Implementing Tabs",
+    "탭 당 1개": "One per Tab",
+    "다크모드 전환": "Switch Dark Mode",
+    "데이모드 전환": "Switch Light Mode",
+    "수정내용 폐기": "Discard Changes",
+    "예: F07D": "Example: F07D",
+    "탭 구현 확인": "Confirm Tab Implementation",
+    "모든 탭을 치환": "Replace All Tabs",
+    "일련번호 자릿수": "Sequence Number Digits",
+    "탭 문자로 복원": "Restore as Tab Characters",
+    "바꿀 문자열 교환": "Swap Replacement Text",
+    "입력란 지우기": "Clear Input",
+    "모두 지우기": "Clear All",
+    "찾을 문자열 입력란을 지웁니다.": "Clear the Find Text input.",
+    "찾을 문자열과 바꿀 문자열 입력란을 모두 지웁니다.": "Clear both the Find Text and Replace With inputs.",
+    "찾을 문자열과 바꿀 문자열에 ÿc와 @Myc를 입력하고, 다시 누르면 서로 교환합니다.": "Set Find Text to ÿc and Replace With to @Myc; press again to swap them.",
+    "찾기/바꾸기 입력란 모두 지우기": "Cleared Find/Replace inputs",
+    "찾기 입력란 지우기": "Cleared Find input",
+    "ÿc → @Myc 입력": "Set ÿc → @Myc",
+    "@Myc → ÿc 입력": "Set @Myc → ÿc",
+    "변경된 항목 없음": "No Changed Items",
+    "저장할 문서 전환": "Switch Document to Save",
+    "표시할 글꼴 없음": "No Fonts to Display",
+    "0 너비 문자 제거": "Remove Zero-Width Character",
+    "다음부터 표시 안함": "Do Not Show Again",
+    "닫을 현재 문서 없음": "No Current Document to Close",
+    "새로고침 단축키 차단": "Refresh Shortcut Blocked",
+    "유니코드 기본값 해제": "Clear Unicode Default",
+    "최근 문서 항목 삭제": "Remove Recent Document Entry",
+    "클립보드 쓰기 실패:": "Clipboard Write Failed:",
+    "클립보드 읽기 실패:": "Clipboard Read Failed:",
+    "글꼴 목록 불러오는 중": "Loading Font List",
+    "대체 글꼴 불러오는 중": "Loading Fallback Font",
+    "대체 글꼴 캐시 저장됨": "Fallback Font Cache Saved",
+    "대표 글꼴 캐시 저장됨": "Primary Font Cache Saved",
+    "바꾸기 (Ctrl+H)": "Replace (Ctrl+H)",
+    "복사할 선택 영역 없음": "No Selection to Copy",
+    "새 입력 시 기본 색상": "Default Color for New Input",
+    "색상연결 기본값 불러옴": "Default Color Mapping Loaded",
+    "실행취소 히스토리 횟수": "Undo History Limit",
+    "이미 열린 문서로 전환": "Switched to Already Open Document",
+    "이미 있는 글리프 선택": "Existing Glyph Selected",
+    "잘라낼 선택 영역 없음": "No Selection to Cut",
+    "잠시만 기다려 주세요.": "Please wait.",
+    "저장 전 색상코드 정리": "Clean Color Codes Before Saving",
+    "창 비활성화 시 투명도": "Inactive Window Opacity",
+    "최근 검색어 저장 갯수": "Recent Search History Count",
+    "추출이 취소되었습니다.": "Extraction was canceled.",
+    "키를 추출하시겠습니까?": "Extract the key?",
+    "프로그램이 종료됩니다.": "The program will exit.",
+    "Tab 이동은 비활성화됨": "Tab navigation is disabled.",
+    "새 문서를 열었을 때 :": "When opening a new document:",
+    "일반 설정 기본값 불러옴": "General Defaults Loaded",
+    "저장 설정 기본값 불러옴": "Save Defaults Loaded",
+    "테마 설정 기본값 불러옴": "Theme Defaults Loaded",
+    "프로그램 시작 로딩 화면": "Startup Splash Screen",
+    "JSON 키 추출 시 언어": "Language for JSON Key Extraction",
+    "JSON 키 추출 창 닫힘": "JSON Key Extraction Window Closed",
+    "JSON 키 추출 창 열림": "JSON Key Extraction Window Opened",
+    "브라우저 기본 단축키 차단": "Browser Shortcut Blocked",
+    "탐색기에서 현재 파일 표시": "Show Current File in Explorer",
+    "탭 구현: 변환할 탭 없음": "Implement Tabs: No Tabs to Convert",
+    "편집창 설정 기본값 불러옴": "Editor Defaults Loaded",
+    "검색기록을 삭제하시겠습니까?": "Clear search history?",
+    "삭제할 색상을 선택해주세요.": "Select a color to delete.",
+    "삭제할 유니코드 글리프 목록": "Unicode Glyphs to Delete",
+    "시스템 트레이 최소화 실패:": "Failed to Minimize to System Tray:",
+    "직접 입력한 문자열로 바꾸기": "Replace with Entered Text",
+    "추출할 키의 언어를 고르세요": "Choose the language key to extract",
+    "탭 문자 포함 시 저장 확인": "Confirm Save When Tabs Are Present",
+    "탭 복원: 복원할 흔적 없음": "Restore Tabs: No Implementation Markers Found",
+    "프로그램을 종료하시겠습니까?": "Exit the program?",
+    "Ctrl+P 인쇄 단축키 차단": "Ctrl+P Print Shortcut Blocked",
+    "F3 브라우저 찾기 동작 차단": "F3 Browser Find Blocked",
+    "글꼴 목록을 불러오는 중...": "Loading font list...",
+    "복사할 현재 경로/파일명 없음": "No Current Path/Filename to Copy",
+    "사용자 글꼴 캐시 저장 실패:": "Failed to Save Custom Font Cache:",
+    "실행 시 최대화된 창으로 실행": "Start Maximized",
+    "탐색기 창을 먼저 닫아주세요.": "Close the Explorer window first.",
+    "표시 설정을 파일 내부에 저장": "Save Display Settings in the File",
+    "F7 커서 브라우징 단축키 차단": "F7 Caret Browsing Shortcut Blocked",
+    "\\u 문자열로 복사 (기본값)": "Copy as \\u String (Default)",
+    "txt 파일만 열 수 있습니다.": "Only txt files can be opened.",
+    "시스템 글꼴 목록을 불러옵니다.": "Load the system font list.",
+    "유니코드의 주소를\n입력하세요:": "Enter the Unicode address:",
+    "좌우 창 비율 기본값으로 초기화": "Reset Left/Right Pane Ratio",
+    "Ctrl+J 다운로드 단축키 차단": "Ctrl+J Download Shortcut Blocked",
+    "색상 이름은 공백일 수 없습니다.": "Color name cannot be blank.",
+    "순서를 바꿀 색상을 선택해주세요.": "Select a color to reorder.",
+    "최근 파일목록을 삭제하시겠습니까?": "Clear the recent file list?",
+    "글리프 목록을 초기화 하시겠습니까?": "Reset the glyph list?",
+    "드래그해서 코드창/편집창 비율 조절": "Drag to resize the Code/Editor panes",
+    "삭제할 글리프를 찾을 수 없습니다.": "The glyph to delete could not be found.",
+    "정확한 복구가 어려울 수도 있습니다": "Exact restoration may not be possible.",
+    "찾을 색상과 바꿀 색상 선택값 교환": "Swap the Find and Replacement colors",
+    "탭 구현 흔적을 무엇으로 바꿀까요?": "What should replace the implemented-tab markers?",
+    "편집창 기준에서는 입력값의 줄바꿈(": "In Editor mode, line breaks in the input (",
+    "현재 입력칸 실행취소만 허용됩니다.": "Only Undo in the current input is allowed.",
+    "마지막 글리프는 삭제할 수 없습니다.": "The last glyph cannot be deleted.",
+    "삭제할 글리프가 선택되지 않았습니다.": "No glyph is selected for deletion.",
+    "상단/하단 창 비율 기본값으로 초기화": "Reset Top/Bottom Pane Ratio",
+    "시스템 글꼴 목록을 불러오는 중...": "Loading system font list...",
+    "탭 문자를 아래 문자열로 교체합니다.": "Replace Tab characters with the text below.",
+    "툴팁에디터 v1.0.0 (exe 버전)": "Tooltip Editor v1.0.0 (EXE version)",
+    "하단/상단 창 비율 기본값으로 초기화": "Reset Bottom/Top Pane Ratio",
+    "현재 입력칸 다시 실행만 허용됩니다.": "Only Redo in the current input is allowed.",
+    "Tauri API를 찾을 수 없습니다.": "Tauri API is unavailable.",
+    "코드창 기준에서는 문자 그대로 찾습니다.": "In Code mode, the input is searched literally.",
+    "마지막으로 열려 있던 저장 문서 다시 열기": "Reopen Previously Open Saved Documents",
+    "최근 문서 항목이 txt 파일이 아닙니다.": "The recent document entry is not a txt file.",
+    "대용량 모드 OFF: 자동 줄바꿈 설정 복귀": "Large-File Mode OFF: Word-wrap settings restored",
+    "새 색상 문자 또는 F1~F12를 누르세요.": "Press a new color character or F1-F12.",
+    "색상코드 포함 가능: 예) ÿc1---ÿc0": "Color codes allowed. Example: ÿc1---ÿc0",
+    "현재 레이아웃에서는 분할선이 비활성화됩니다.": "The splitter is disabled in the current layout.",
+    "대용량 모드: 자동 줄바꿈 변경은 임시 보류됨": "Large-File Mode: Word-wrap changes are temporarily deferred",
+    "모두 찾기를 누르면 결과가 여기에 표시됩니다.": "Find All results will appear here.",
+    "찾을 문자열과 바꿀 문자열을 서로 교환합니다.": "Swap the find and replacement text.",
+    "0 너비 문자(U+2060) 포함 시 저장 확인": "Confirm Save When U+2060 Is Present",
+    "Ctrl+Shift+G 브라우저 찾기 동작 차단": "Ctrl+Shift+G Browser Find Blocked",
+    "문자열 입력칸에 클립보드 텍스트를 붙여넣습니다.": "Paste clipboard text into the text field.",
+    "예기치 못한 오류로 인해 추출이 취소되었습니다.": "Extraction was canceled because of an unexpected error.",
+    "원본 파일이 없어 다른 이름으로 저장을 엽니다.": "The original file is missing. Opening Save As.",
+    "텍스트 정리 창을 엽니다. 단축키: Ctrl+L": "Open Text Cleanup. Shortcut: Ctrl+L",
+    "색상 단축키에서 Shift 강제 제외 (실험기능)": "Ignore Shift in Color Shortcuts (Experimental)",
+    "찾을 색상과 바꿀 색상 선택값을 서로 교환합니다.": "Swap the selected Find and Replacement colors.",
+    "유니코드 입력기 창을 엽니다. 단축키: Ctrl+G": "Open Unicode Input. Shortcut: Ctrl+G",
+    "현재 글꼴/탭 너비 기준으로 탭을 변환하는 중입니다.": "Converting tabs using the current font and tab width.",
+    "※ TTE에서는 이 블록을 본문으로 표시하지 않습니다.": "TTE does not display this block as document text.",
+    "브라우저 실행에서는 설정 가져오기를 지원하지 않습니다.": "Importing settings is not supported in browser mode.",
+    "시스템 트레이는 데스크톱 앱에서만 사용할 수 있습니다.": "The system tray is available only in the desktop app.",
+    "4자리 16진수(0-9, A-F)만 입력할 수 있습니다.": "Enter exactly four hexadecimal digits (0-9, A-F).",
+    "기본값 레이아웃으로 전환": "Switch to Default Layout",
+    "유니코드 주소는 U+XXXX 형식의 4자리 16진수여야 합니다.": "The Unicode address must be four hexadecimal digits in U+XXXX format.",
+    "지원하지 않는 파일 형식입니다. txt 파일만 열 수 있습니다.": "Unsupported file format. Only txt files can be opened.",
+    "⚠ 탭 문자 교체에 체크하고 문자열을 비워두면 탭 문자가 삭제됩니다.": "If Replace Tabs is checked and the text is blank, Tab characters will be deleted.",
+    "색상 매핑 없이 텍스트로 붙여넣습니다. 단축키: Ctrl+Shift+V": "Paste as text without color mapping. Shortcut: Ctrl+Shift+V",
+    "코드창/편집창에 커서가 있을 때만 문서 실행취소/다시실행을 적용합니다.": "Document Undo/Redo is applied only when the caret is in the Code or Editor pane.",
+    "표시 설정 metadata를 읽지 못해 기본 표시 설정으로 열었습니다.": "Display-setting metadata could not be read. The document was opened with default display settings.",
+    "입력 가능한 텍스트 박스에 커서가 없으면 실행취소/다시실행하지 않습니다.": "Undo/Redo is not performed unless an editable field has focus.",
+    "대용량 모드에서는 행번호/커서 안정성을 위해 자동 줄바꿈을 임시로 끕니다.": "Large-File Mode temporarily disables word wrap to keep line numbers and the caret stable.",
+    "도구모음 색상 순서, 이름, 색상 문자, tooltip 메모를 설정합니다.": "Configure toolbar color order, names, color characters, and tooltip notes.",
+    "현재 문서에서 지정한 언어 키의 문자열 값만 추출해 문서 전체를 교체합니다.": "Extract only the string values for the selected language key and replace the entire document.",
+    "옛 버전의 색상코드를 포함한 문서 내용은 바꾸기 기능으로 직접 바꿔야 합니다.": "Documents containing old color codes must be updated manually with Replace.",
+    "※ 파일을 다시 열었을 때 같은 표시 설정을 유지하려면 이 블록을 지우지 마세요.": "Do not delete this block if you want to preserve the same display settings when reopening the file.",
+    "최대 5자까지 입력할 수 있습니다. 공백 이름은 적용/확인 시 저장할 수 없습니다.": "Up to five characters can be entered. A blank name cannot be saved when applying or confirming.",
+    "일반/HTML 색상 근사 붙여넣기는 Ctrl+V native paste로만 사용합니다.": "Approximate plain/HTML color paste is available only through native Ctrl+V paste.",
+    "잘못된 형식입니다. TTEDIT_UNICODE_LIST v1 파일만 불러올 수 있습니다.": "Invalid format. Only TTEDIT_UNICODE_LIST v1 files can be imported.",
+    "삭제할 글리프를 선택한 뒤 확인을 누르세요. 선택된 글리프를 다시 클릭하면 선택이 해제됩니다.": "Select the glyphs to delete, then press OK. Click a selected glyph again to deselect it.",
+    "최대 2행, 1행 15자까지 입력할 수 있습니다. RGB HEX 값은 툴팁에 자동으로 포함됩니다.": "Up to two lines and 15 characters per line are allowed. The RGB HEX value is added to the tooltip automatically.",
+    "이 항목은 다음 실행 시작 테마만 정합니다. 현재 화면 전환은 메인 패널의 테마 전환 버튼을 사용합니다.": "This option sets only the startup theme for the next launch. Use the theme button on the main panel to switch the current screen.",
+    "탭을 현재 글꼴/탭 너비 기준 검은 점·공백 조합으로 구현하시겠습니까?": "Implement tabs as black-dot and space sequences using the current font and tab width?",
+    "단일 비공백 문자 또는 F1~F12만 사용할 수 있습니다. 개발자모드가 켜져 있을 때만 F12는 개발자도구 단축키로 예약됩니다.": "Use one non-space character or F1-F12. F12 is reserved for Developer Tools only while Developer Mode is enabled.",
+    "일반 문자는 Ctrl+Alt 단축키에 사용됩니다. F1~F12는 단독 Fn 단축키로 사용되며 실제 ÿc 색상코드는 바꾸지 않습니다.": "Regular characters use Ctrl+Alt shortcuts. F1-F12 are standalone Fn shortcuts and do not change the actual ÿc color codes.",
+    "체크한 항목만 현재 문서에 적용합니다. 설정값은 프로그램 종료 시까지만 마지막 작업값을 기억하고, 재시작하면 시스템 초기값으로 돌아갑니다.": "Apply only checked items to the current document. The last values are remembered only until the program exits and reset to system defaults after restart.",
+    "※ 아래 블록은 D2R TooltipEditor가 다음에 이 파일을 열 때 표시 설정(글꼴, 크기, 줄 간격, 줄 맞춤)을 복원하기 위한 정보입니다.": "This block lets D2R TooltipEditor restore display settings (font, size, line spacing, and alignment) when the file is opened again.",
+    "웹페이지나 외부 문서에서 붙여넣을 때 섞일 수 있는 보이지 않는 제어문자, 방향 제어 문자, BOM, soft hyphen, 일부 0폭 문자, 줄/문단 separator, 특수 공백을 정리합니다. 의도된 \\n, \\uXXXX 리터럴, ÿc 색상코드, 일반 특수문자는 보존합니다. 일부 특수 케이스는 남아 있을 수 있습니다.": "Remove invisible control characters, direction controls, BOM, soft hyphen, selected zero-width characters, line/paragraph separators, and special spaces that may appear when pasting from web pages or external documents. Intended \\n and \\uXXXX literals, ÿc color codes, and normal special characters are preserved. Some special cases may remain.",
+    "대용량 모드에서는 입력 지연을 줄이기 위해 코드창 기능을 일시 중단합니다.": "Large-File Mode temporarily pauses the Code pane to reduce input latency.",
+    "대용량 모드가 해제되면 다시 표시합니다.": "The Code pane is shown again when Large-File Mode ends.",
+    "문서 저장/편집은 정상처리 됩니다.": "Document editing and saving continue normally.",
+    "대용량 모드에서는 일부 기능이 작동하지 않거나 불완전하게 작동할 수 있습니다.": "Some features may be unavailable or incomplete in Large-File Mode.",
+    "[대용량모드 진입 기준]": "[Large-File Mode Thresholds]",
+    "탭 구현 취소": "Tab Implementation Canceled",
+    "탭 복원 취소": "Tab Restore Canceled",
+    "현재 경로/파일명 복사 완료": "Current Path/Filename Copied",
+    "커서 위치에 0 너비 문자(U+2060)를 삽입합니다. 이 문자가 들어있는 툴팁은 폰트가 시스템 기본폰트로 되돌아가므로, 일부 폰트 조건에서는 가독성이 살아날 수 있습니다.": "Insert a zero-width character (U+2060) at the caret. A tooltip containing this character may fall back to the system font, which can improve readability for some font configurations.",
+    "글에 삽입된 모든 U+2060을 지웁니다. 해당 툴팁의 폰트가 인게임 구현 폰트로 정상 출력됩니다": "Remove every U+2060 inserted in the text so the tooltip uses the intended in-game font normally.",
+    "현재 문서에 탭 문자가 삽입되어 있습니다.\\n\\n탭 문자가 JSON 키값 내부에 저장되면 사용하는 파일 구조에 따라 JSON 파일이 깨질 수 있습니다.\\n\\n그래도 저장하시겠습니까?": "The current document contains Tab characters.\\n\\nIf Tab characters are saved inside a JSON key value, the JSON file may become invalid depending on its structure.\\n\\nSave anyway?",
+    "현재 문서에 0 너비 문자(U+2060)가 삽입되어 있습니다.\\n\\nU+2060이 키값 내부에 삽입된 툴팁은 fallback 폰트로 출력될 수 있습니다.\\n\\n그래도 저장하시겠습니까?": "The current document contains a zero-width character (U+2060).\\n\\nA tooltip with U+2060 inside a key value may be rendered with the fallback font.\\n\\nSave anyway?",
+    "종료 취소": "Exit Canceled",
+    "이미 열린 문서": "Document Already Open",
+    "브라우저 방식으로 파일 열기 완료": "File Opened in Browser Mode",
+    "다운로드 방식으로 저장": "Saved by Download",
+    "최근 문서 목록에서 삭제": "Remove from Recent Documents",
+    "\"파일을 놓으면 열기\"": "\"Drop File to Open\"",
+    "창 비율 조절 중": "Resizing Panes",
+    "단일 비공백 문자 또는 F1~F12만 사용할 수 있습니다. Ctrl/Alt/Meta 조합은 지정하지 않습니다. 개발자모드가 켜져 있으면 F12는 개발자도구용으로 동작합니다.": "Use one non-space character or F1-F12. Ctrl/Alt/Meta combinations cannot be assigned. When Developer Mode is enabled, F12 opens Developer Tools.",
+    "삭제되었습니다.": "Deleted.",
+    "대표 글꼴 선택됨": "Primary Font Selected",
+    "대체 글꼴 선택됨": "Fallback Font Selected",
+    "일반 환경설정 적용됨": "General Preferences Applied",
+    "저장 환경설정 적용됨": "Save Preferences Applied",
+    "테마 환경설정 적용됨": "Theme Preferences Applied",
+    "편집창 환경설정 적용됨": "Editor Preferences Applied",
+    "색상연결 환경설정 적용됨": "Color Mapping Preferences Applied",
+    "기본 저장 경로 선택됨": "Default Save Folder Selected",
+    "프로그램이 만든 사용자 데이터를 삭제합니다.\\n\\n이 작업은 환경설정, 최근 파일 목록, 검색기록, 사용자 색상 연결, 사용자 지정 폰트 캐시 등 프로그램이 저장한 데이터를 제거합니다.\\n\\n실행 파일, 사용자가 편집한 txt 문서, 사용자가 원래 가지고 있던 폰트 파일은 삭제하지 않습니다. 확인을 누르면 한 번 더 확인한 뒤 프로그램이 종료됩니다.\\n\\n계속하시겠습니까?": "Delete user data created by this program.\\n\\nThis removes preferences, recent files, search history, custom color mappings, custom font caches, and other data saved by the program.\\n\\nIt does not delete the executable, user-edited txt documents, or original font files. Press OK to continue to a final confirmation before the program exits.\\n\\nContinue?",
+    "정말 프로그램이 만든 사용자 데이터를 삭제하시겠습니까?\\n\\n이 작업은 되돌릴 수 없습니다.": "Permanently delete the user data created by this program?\\n\\nThis action cannot be undone.",
+    "컴퓨터에 저장된 환경설정, 최근 문서 목록, 검색 기록, 유니코드 글리프 목록을 기본값으로 되돌립니다. 이 작업은 현재 설정 파일을 기본값으로 덮어씁니다. 진행하시겠습니까?": "Reset the saved preferences, recent documents, search history, and Unicode glyph list to their defaults. This overwrites the current settings file. Continue?",
+    "설정 JSON 다운로드 완료": "Settings JSON Downloaded",
+    "visible -> raw 오프셋 체크포인트": "Visible-to-Raw Offset Checkpoints",
+    "체크포인트 이진 탐색 + 최대 RAW_INDEX_STEP 자 지역 스캔": "Checkpoint Binary Search + Local Scan up to RAW_INDEX_STEP Characters",
+    "\\', 단독": "\\', standalone",
+    "/ 단독": "/ standalone",
+    "0자 / 1행": "0 chars / 1 line",
+    "탭 입력: 변경 없음": "Tab Input: No Changes",
+    "웹페이지나 외부 문서에서 붙여넣을 때 섞일 수 있는 보이지 않는 제어문자, 방향 제어 문자, BOM, soft hyphen, 일부 0폭 문자, 줄/문단 separator, 특수 공백을 정리합니다. 의도된 \\\\n, \\\\uXXXX 리터럴, ÿc 색상코드, 일반 특수문자는 보존합니다. 일부 특수 케이스는 남아 있을 수 있습니다.": "Remove invisible control characters, direction controls, BOM, soft hyphen, selected zero-width characters, line/paragraph separators, and special spaces introduced by pasted web or external content. Intended \\n and \\uXXXX literals, ÿc color codes, and normal special characters are preserved. Some special cases may remain.",
+    "# 한 줄에 유니코드 주소 하나를 적습니다.": "# Enter one Unicode address per line.",
+    "# U+E031, E031, \\uE031 형식을 사용할 수 있습니다.": "# U+E031, E031, and \\uE031 formats are accepted.",
+    "# 첫 줄의 TTEDIT_UNICODE_LIST v1 표식은 지우지 마세요.": "# Do not remove the TTEDIT_UNICODE_LIST v1 marker on the first line.",
+    "유니코드의 주소를\\n입력하세요:": "Enter the Unicode address:",
+    "좌측 편집창으로 보기": "Editor on Left",
+    "편집창만으로 보기": "Editor Only",
+    "코드창만으로 보기": "Code Only",
+    "레이아웃: 좌측 편집창": "Layout: Editor on Left",
+    "레이아웃: 우측 편집창": "Layout: Editor on Right",
+    "레이아웃: 상단 편집창": "Layout: Editor on Top",
+    "레이아웃: 하단 편집창": "Layout: Editor on Bottom",
+    "레이아웃: 편집창만": "Layout: Editor Only",
+    "레이아웃: 코드창만": "Layout: Code Only",
+    "기본값 레이아웃으로 전환: 좌측 편집창": "Switched to default layout: Editor on Left",
+    "기본값 레이아웃으로 전환: 우측 편집창": "Switched to default layout: Editor on Right",
+    "기본값 레이아웃으로 전환: 상단 편집창": "Switched to default layout: Editor on Top",
+    "기본값 레이아웃으로 전환: 하단 편집창": "Switched to default layout: Editor on Bottom",
+    "기본값 레이아웃으로 전환: 편집창만": "Switched to default layout: Editor Only",
+    "기본값 레이아웃으로 전환: 코드창만": "Switched to default layout: Code Only",
+    "오름차순": "Ascending",
+    "내림차순": "Descending",
+    "정렬": "Sort",
+    "복제": "Copy",
+    "예시명": "Example Name",
+    "지정 대기 중입니다. 확인을 누르면 적용됩니다.": "is pending. Press OK to apply it.",
+    "대용량 viewport scroll": "Large-file viewport scroll",
+    "대용량 편집창 window 변경": "Large-file editor window changed",
+    "색상 버튼 순서 변경": "Color button order changed",
+    "Ctrl+드래그로 색상 순서 이동": "Ctrl+drag to reorder colors",
+    "색상을 적용할 선택 영역 없음": "No selection to apply a color to",
+    "색상 적용 대상 없음": "No target for color application",
+    "색상 적용: 변경 없음": "Apply Color: no changes",
+    "Fn 자동 정렬": "Auto-sort Fn shortcuts",
+    "개발자모드 임시 해제": "Developer Mode temporarily disabled",
+    "개발자모드 중 F12 색상 단축키는 임시 비활성화됩니다.": "The F12 color shortcut is temporarily disabled while Developer Mode is enabled.",
+    "Fn 지정 색상은 자동 정렬됩니다.": "Colors assigned to Fn shortcuts are sorted automatically.",
+    "Ctrl+드래그로 순서 이동.": "Ctrl+drag to reorder.",
+    "색상기호 포함 (현재)": "Include color markers (current)",
+    "색상기호 미포함 (현재)": "Exclude color markers (current)",
+    "줄바꿈 문자 포함 (현재)": "Include line-break literals (current)",
+    "편집창 복사 옵션 변경": "Editor copy options changed",
+    "편집창 복사 옵션 기본값": "Editor copy options reset to defaults",
+    "새 입력 시 기본 색: 켜짐": "Default color for new input: On",
+    "새 입력 시 기본 색: 꺼짐": "Default color for new input: Off",
+    "색상 입력 옵션 도구모음": "Color input options toolbar",
+    "새로 입력하는 일반 문자를 기본색으로 추가합니다. 붙여넣기와 코드창 입력에는 적용하지 않습니다.": "Applies the default color to newly typed regular characters. This does not affect pasted text or input in the code pane.",
+    "U+2060 입력 시 대체 글꼴": "Fallback font for U+2060 input",
+    "코드창 ÿc0 반영": "Keep ÿc0 in Code Pane",
+    "켜면 흰색(기본색) 구간의 생략된 ÿc0도 코드창에 표시하고 저장 시 유지합니다.": "When enabled, an otherwise omitted ÿc0 marker for the white/default-color run is materialized in the Code pane and preserved when saving.",
+    "편집창 복사 옵션": "Editor Copy Options",
+    "편집창 선택 영역을 복사할 때 ÿc 색상기호를 함께 복사합니다. 끄면 화면에 보이는 일반 텍스트만 복사합니다.": "Copies ÿc color markers with the selected editor text. When disabled, only the visible plain text is copied.",
+    "켜면 줄바꿈을 실제 줄바꿈이 아니라 \\n 문자로 복사합니다. 끄면 줄바꿈이 적용된 상태로 복사합니다.": "When enabled, line breaks are copied as the literal \\n sequence. When disabled, they are copied as actual line breaks.",
+    "체크하면 유니코드 기호를 선택한 형식으로 복사합니다. 해제하면 유니코드 기호를 제외하고 드롭다운을 잠급니다.": "When enabled, Unicode symbols are copied in the selected format. When disabled, Unicode symbols are omitted and the dropdown is locked.",
+    "유니코드": "Unicode",
+    "글리프로 복사": "Copy as Glyphs",
+    "편집창 복사 옵션만 기본값으로 되돌립니다.": "Resets only the editor copy options to their defaults.",
+    "코드창과 편집창 스크롤 위치를 행 기준으로 동기화합니다.": "Synchronizes the code and editor panes by line while scrolling.",
+    "색상 입력 정책 변경": "Color input policy changed",
+    "\"0 너비 문자\" 입력 (기본값)": "Insert \"Zero-Width Character\" (default)",
+    "새 문서": "New Document",
+    "삭제 완료": "Delete complete",
+    "0 너비 문자 삭제 취소": "Zero-width character deletion canceled",
+    "모든 U+2060 삭제: 변경 없음": "Delete All U+2060: no changes",
+    "현재 문서에 탭 문자가 삽입되어 있습니다.\n\n탭 문자가 JSON 키값 내부에 저장되면 사용하는 파일 구조에 따라 JSON 파일이 깨질 수 있습니다.\n\n그래도 저장하시겠습니까?": "The current document contains tab characters.\n\nIf a tab character is saved inside a JSON key value, the JSON file may become invalid depending on the file structure.\n\nSave anyway?",
+    "현재 문서에 0 너비 문자(U+2060)가 삽입되어 있습니다.\n\nU+2060이 키값 내부에 삽입된 툴팁은 fallback 폰트로 출력될 수 있습니다.\n\n그래도 저장하시겠습니까?": "The current document contains a zero-width character (U+2060).\n\nA tooltip with U+2060 inside a key value may be rendered with the fallback font.\n\nSave anyway?",
+    "파일 열기 완료": "File opened",
+    "열기 취소": "Open canceled",
+    "최근 문서 열기 실패:": "Failed to open recent document:",
+    "저장 취소": "Save canceled",
+    "저장 완료": "Save complete",
+    "저장 실패:": "Save failed:",
+    "다른이름으로 저장 완료": "Save As complete",
+    "문서명 변경 취소": "Document rename canceled",
+    "문서 복제 취소": "Document duplication canceled",
+    "문서 탭 전환 취소": "Document tab switch canceled",
+    "최근 문서 위치 열기 실패:": "Failed to open recent document location:",
+    "드래그앤드롭은 txt 파일만 지원합니다.": "Drag and drop supports txt files only.",
+    "입력칸 실행취소할 내용 없음": "Nothing to undo in the input field",
+    "입력칸 다시 실행할 내용 없음": "Nothing to redo in the input field",
+    "찾기/바꾸기 입력칸에 커서가 있을 때만 입력칸 실행취소가 적용됩니다.": "Input-field undo applies only when the cursor is in a Find/Replace input field.",
+    "모두": "All",
+    "바꿀 문자열이 없습니다.": "There is no replacement text.",
+    "찾는 문자열이 없습니다.": "There is no search text.",
+    "문서의 처음까지 찾았습니다.": "Reached the beginning of the document.",
+    "문서의 끝까지 찾았습니다.": "Reached the end of the document.",
+    "찾을 문자열을 입력하세요": "Enter text to find",
+    "바꿀 대상 표시": "Replacement target shown",
+    "바꾸기 완료": "Replace complete",
+    "바꾸기 완료: 다음 대상 표시": "Replace complete: next target shown",
+    "삭제 완료: 다음 대상 표시": "Delete complete: next target shown",
+    "바꾸기 완료: 다음 대상 없음": "Replace complete: no next target",
+    "삭제 완료: 다음 대상 없음": "Delete complete: no next target",
+    "모두 바꾸기 취소": "Replace All canceled",
+    "찾을 문자열과 바꿀 문자열 교환": "Swap find and replacement text",
+    "찾을 문자열을 입력하세요.": "Enter text to find.",
+    "0개": "0",
+    "찾는 문자열 없음": "No search text",
+    "최근 검색어 없음": "No recent searches",
+    "최근 행 번호 없음": "No recent line numbers",
+    "찾기 문자열에서 ? 한 글자만 임의 문자로 검색하는 옵션입니다.": "Treats each ? in the search text as a wildcard matching one character.",
+    "찾을 색상과 바꿀 색상을 서로 교체해 변환합니다.": "Swaps the find and replacement colors during conversion.",
+    "같은 색상이 선택되어 변환 결과가 없습니다. 다른 색상을 선택하세요.": "The same color is selected for both fields. Select a different color.",
+    "찾을 색상을 선택하세요": "Select the color to find",
+    "바꿀 색상을 선택하세요": "Select the replacement color",
+    "같은 색상이 선택되어 색상변환을 실행하지 않았습니다": "Color conversion was not run because the same color was selected",
+    "색상을 서로 바꾸시겠습니까?": "Swap the two colors?",
+    "색상을 바꾸시겠습니까?": "Replace the color?",
+    "색상변환 취소": "Color conversion canceled",
+    "변경된 색상이 없습니다.": "No colors were changed.",
+    "색상이 서로 바뀌었습니다": "The colors were swapped",
+    "색상이 적용되었습니다": "The color was applied",
+    "), 색상코드기호(": "), color-code marker (",
+    ")를 실제 줄바꿈/글리프로 해석합니다.": ") as actual line breaks/glyphs.",
+    "는 다음 찾기,": "runs Find Next,",
+    "는 모두 찾기,": "runs Find All,",
+    "는 바꾸기, 모두 바꾸기 단축키는 없습니다.": "runs Replace. There is no shortcut for Replace All.",
+    "찾기/바꾸기": "Find/Replace",
+    "찾기/바꾸기 창 투명도": "Find/Replace Window Opacity",
+    "행 번호 입력 필요": "Line number required",
+    "행 이동 창 닫힘": "Go to Line window closed",
+    "행 번호는 1 이상의 숫자여야 합니다.": "The line number must be 1 or greater.",
+    "시작": "Start",
+    "끝": "End",
+    "내장 대체": "Built-in Fallback",
+    "# 도움말\n\n- 도움말을 불러오지 못했습니다.\n- 프로그램을 다시 실행하거나 Korean.lng 포함 여부를 확인하세요.": "# Help\n\n- The help content could not be loaded.\n- Restart the program or verify that Korean.lng is included.",
+    "도움말 내용이 없습니다.": "No help content is available.",
+    "JSON 키 추출 취소": "JSON key extraction canceled",
+    "편집창 스크롤 영역": "Editor scroll area",
+    "창 비율 조절 취소": "Pane resize canceled",
+    "창 비율 조절 완료": "Pane resize complete",
+    "알림": "Notice",
+    "⚠ 6자리 HEX 값(0-9, A-F)만 입력할 수 있습니다.": "⚠ Enter a 6-digit HEX value using 0-9 and A-F only.",
+    "데이모드 편집창 배경": "Light Mode Editor Background",
+    "데이모드 코드창 배경": "Light Mode Code Pane Background",
+    "데이모드 블록 색상": "Light Mode Selection Color",
+    "데이모드 창 둘레 강조": "Light Mode Window Focus Highlight",
+    "다크모드 편집창 배경": "Dark Mode Editor Background",
+    "다크모드 코드창 배경": "Dark Mode Code Pane Background",
+    "다크모드 블록 색상": "Dark Mode Selection Color",
+    "다크모드 창 둘레 강조": "Dark Mode Window Focus Highlight",
+    "예: C:\\Windows\\Fonts\\fallback.ttf": "Example: C:\\Windows\\Fonts\\fallback.ttf",
+    "예: C:\\Windows\\Fonts\\custom.ttf": "Example: C:\\Windows\\Fonts\\custom.ttf",
+    "Shift가 필요한 색상도 충돌이 없으면 Ctrl+Alt+문자로 입력합니다. 겹치면 제외합니다.": "Colors that normally require Shift also use Ctrl+Alt+character when there is no conflict. Conflicting shortcuts are omitted.",
+    "클릭해 색상을 바꿉니다. 도구모음에도 반영됩니다.": "Click to change the color. The toolbar is updated as well.",
+    "도구모음에 보이는 이름입니다. 최대 5자.": "The name shown on the toolbar. Maximum 5 characters.",
+    "ÿc 뒤에 붙는 1글자 코드 또는 F1~F12 단축키입니다. Fn은 실제 색상코드를 바꾸지 않습니다.": "A one-character code after ÿc, or an F1-F12 shortcut. Fn shortcuts do not change the actual color code.",
+    "색상 툴팁에 보일 짧은 메모입니다.": "A short note shown in the color tooltip.",
+    "색상군 기준으로 정렬합니다. 다시 누르면 반대순.": "Sorts by color group. Press again to reverse the order.",
+    "이름순으로 정렬합니다. 다시 누르면 반대순.": "Sorts by name. Press again to reverse the order.",
+    "문자순으로 정렬합니다. 다시 누르면 반대순.": "Sorts by character. Press again to reverse the order.",
+    "색상 이름 편집": "Edit Color Name",
+    "색상 메모 편집": "Edit Color Note",
+    "글꼴 목록 조회 실패:": "Failed to load font list:",
+    "환경설정 적용 완료": "Preferences applied",
+    "일반 설정 변경 취소": "General settings changes canceled",
+    "저장 설정 변경 취소": "Save settings changes canceled",
+    "테마 설정 변경 취소": "Theme settings changes canceled",
+    "편집창 설정 변경 취소": "Editor settings changes canceled",
+    "색상연결 설정 변경 취소": "Color-link settings changes canceled",
+    "기본 저장 경로 선택 취소": "Default save folder selection canceled",
+    "기본 저장 경로 선택 실패:": "Failed to select default save folder:",
+    "대표 글꼴 선택 취소": "Primary font selection canceled",
+    "대표 글꼴 선택 실패:": "Failed to select primary font:",
+    "대체 글꼴 선택 취소": "Fallback font selection canceled",
+    "대체 글꼴 선택 실패:": "Failed to select fallback font:",
+    "최근 파일목록 삭제 완료": "Recent file list cleared",
+    "검색기록 삭제 완료": "Search history cleared",
+    "프로그램이 만든 사용자 데이터를 삭제합니다.\n\n이 작업은 환경설정, 최근 파일 목록, 검색기록, 사용자 색상 연결, 사용자 지정 폰트 캐시 등 프로그램이 저장한 데이터를 제거합니다.\n\n실행 파일, 사용자가 편집한 txt 문서, 사용자가 원래 가지고 있던 폰트 파일은 삭제하지 않습니다. 확인을 누르면 한 번 더 확인한 뒤 프로그램이 종료됩니다.\n\n계속하시겠습니까?": "Delete user data created by the program.\n\nThis removes preferences, the recent file list, search history, custom color links, cached custom fonts, and other data saved by the program.\n\nThe executable, txt documents edited by the user, and original font files are not deleted. After confirmation, you will be asked once more and then the program will exit.\n\nContinue?",
+    "정말 프로그램이 만든 사용자 데이터를 삭제하시겠습니까?\n\n이 작업은 되돌릴 수 없습니다.": "Delete all user data created by the program?\n\nThis action cannot be undone.",
+    "사용자 데이터 삭제 실패:": "Failed to delete user data:",
+    "전체 설정 초기화 완료": "All settings reset",
+    "설정 내보내기 완료": "Settings export complete",
+    "설정 내보내기 취소": "Settings export canceled",
+    "설정 내보내기 실패:": "Settings export failed:",
+    "설정 가져오기 취소": "Settings import canceled",
+    "설정 가져오기 완료": "Settings import complete",
+    "설정 가져오기 실패:": "Settings import failed:",
+    "텍스트 정리 창 닫힘": "Text Cleanup window closed",
+    "정리할 항목을 하나 이상 선택하세요.": "Select at least one cleanup item.",
+    "체크한 항목에 따라 설정된 문자열들을 제거하거나 변환하시겠습니까?": "Remove or convert text according to the selected cleanup options?",
+    "텍스트 정리가 취소되었습니다.": "Text cleanup was canceled.",
+    "텍스트 정리 창 열림": "Text Cleanup window opened",
+    "유니코드 목록 내보내기 완료": "Unicode list export complete",
+    "유니코드 목록 내보내기 취소": "Unicode list export canceled",
+    "유니코드 목록 내보내기 실패:": "Unicode list export failed:",
+    "유니코드 목록 불러오기 취소": "Unicode list import canceled",
+    "유니코드 목록 불러오기 실패:": "Unicode list import failed:",
+    "글리프 추가 취소": "Add glyph canceled",
+    "글리프 삭제 취소": "Delete glyph canceled",
+    "글리프 삭제 완료": "Delete glyph complete",
+    "총 __VALUE__개": "Total: __VALUE__",
+    "__VALUE__. __VALUE__행 __VALUE__열": "__VALUE__. Line __VALUE__, Column __VALUE__",
+    "__VALUE__자리": "__VALUE__ digits",
+    "총 색상 수: __VALUE__개": "Total colors: __VALUE__",
+    "색상 적용:": "Apply Color:",
+    "줄바꿈 적용 (현재)": "Use actual line breaks (current)",
+    "색상연결 변경": "Color links changed",
+    "환경설정 변경": "Preferences changed",
+    "개발자모드 변경": "Developer Mode changed",
+    "색상기호(ÿ) 입력": "Insert Color Marker (ÿ)",
+    "실행취소할 내용 없음": "Nothing to undo",
+    "다시 실행할 내용 없음": "Nothing to redo",
+    "붙여넣을 텍스트 없음": "No text to paste",
+    "0 너비 문자 입력": "Insert zero-width character",
+    "0 너비 문자 삭제": "Delete zero-width character",
+    "모든 U+2060 삭제": "Delete all U+2060 characters",
+    "탭 문자 저장 확인": "Confirm Saving Tab Characters",
+    "0 너비 문자 저장 확인": "Confirm Saving Zero-Width Characters",
+    "현재 파일 경로 없음": "No current file path",
+    "닫을 문서 확인": "Confirm Document to Close",
+    "최근 문서 위치 열기": "Open Recent Document Location",
+    "찾기": "Find",
+    "이전 찾기": "Find Previous",
+    "편집창 기준": "Editor Pane",
+    "코드창 기준": "Code Pane",
+    "이동 위치": "Destination",
+    "유니코드 입력기 열기": "Open Unicode Input",
+    "최근 문서 저장 갯수": "Number of Recent Documents",
+    "이름 없음": "Unnamed",
+    "이름 편집": "Edit Name",
+    "메모 편집": "Edit Note",
+    "문자/Fn 편집": "Edit Character/Fn",
+    "메모 없음": "No Note",
+    "시스템 글꼴 목록 조회 실패": "Failed to load system font list",
+    "글꼴 목록 조회 실패": "Failed to load font list",
+    "설정 기본값 적용": "Applied preference defaults",
+    "편집창 정렬 변경": "Editor alignment changed",
+    "수정": "Modified",
+    "완료": "Complete",
+    "글리프 추가 확인": "Confirm Add Glyph",
+    "글리프 삭제 확인": "Confirm Delete Glyph",
+    "기본": "Default",
+    "자주": "Violet",
+    "우측 편집창 (기본값)": "Editor on Right (Default)",
+    "우측 편집창으로 보기 (현재 기본값)": "Editor on Right (Current Default)",
+    "상단 편집창 (기본값)": "Editor on Top (Default)",
+    "상단 편집창으로 보기 (현재 기본값)": "Editor on Top (Current Default)",
+    "하단 편집창 (기본값)": "Editor on Bottom (Default)",
+    "하단 편집창으로 보기 (현재 기본값)": "Editor on Bottom (Current Default)",
+    "편집창만 (기본값)": "Editor Only (Default)",
+    "편집창만 보기 (현재 기본값)": "Editor Only (Current Default)",
+    "코드창만 (기본값)": "Code Only (Default)",
+    "코드창만 보기 (현재 기본값)": "Code Only (Current Default)",
+    "색상순 오름차순 정렬": "Sorted by color ascending",
+    "색상순 내림차순 정렬": "Sorted by color descending",
+    "이름순 오름차순 정렬": "Sorted by name ascending",
+    "이름순 내림차순 정렬": "Sorted by name descending",
+    "문자순 오름차순 정렬": "Sorted by character ascending",
+    "문자순 내림차순 정렬": "Sorted by character descending",
+    "기본 이름 편집": "Edit Default Name",
+    "기본 문자 또는 Fn 단축키 편집": "Edit Character or Fn Shortcut for Default",
+    "기본 메모 편집": "Edit Default Note",
+    "백색 이름 편집": "Edit White Name",
+    "백색 문자 또는 Fn 단축키 편집": "Edit Character or Fn Shortcut for White",
+    "백색 메모 편집": "Edit White Note",
+    "회색 이름 편집": "Edit Gray Name",
+    "회색 문자 또는 Fn 단축키 편집": "Edit Character or Fn Shortcut for Gray",
+    "회색 메모 편집": "Edit Gray Note",
+    "검정 이름 편집": "Edit Black Name",
+    "검정 문자 또는 Fn 단축키 편집": "Edit Character or Fn Shortcut for Black",
+    "검정 메모 편집": "Edit Black Note",
+    "빨강 이름 편집": "Edit Red Name",
+    "빨강 문자 또는 Fn 단축키 편집": "Edit Character or Fn Shortcut for Red",
+    "빨강 메모 편집": "Edit Red Note",
+    "진홍 이름 편집": "Edit Crimson Name",
+    "진홍 문자 또는 Fn 단축키 편집": "Edit Character or Fn Shortcut for Crimson",
+    "진홍 메모 편집": "Edit Crimson Note",
+    "적갈 이름 편집": "Edit Reddish Brown Name",
+    "적갈 문자 또는 Fn 단축키 편집": "Edit Character or Fn Shortcut for Reddish Brown",
+    "적갈 메모 편집": "Edit Reddish Brown Note",
+    "주황 이름 편집": "Edit Orange Name",
+    "주황 문자 또는 Fn 단축키 편집": "Edit Character or Fn Shortcut for Orange",
+    "주황 메모 편집": "Edit Orange Note",
+    "금색 이름 편집": "Edit Gold Name",
+    "금색 문자 또는 Fn 단축키 편집": "Edit Character or Fn Shortcut for Gold",
+    "금색 메모 편집": "Edit Gold Note",
+    "소색 이름 편집": "Edit Tan Name",
+    "소색 문자 또는 Fn 단축키 편집": "Edit Character or Fn Shortcut for Tan",
+    "소색 메모 편집": "Edit Tan Note",
+    "노랑 이름 편집": "Edit Yellow Name",
+    "노랑 문자 또는 Fn 단축키 편집": "Edit Character or Fn Shortcut for Yellow",
+    "노랑 메모 편집": "Edit Yellow Note",
+    "미색 이름 편집": "Edit Ivory Name",
+    "미색 문자 또는 Fn 단축키 편집": "Edit Character or Fn Shortcut for Ivory",
+    "미색 메모 편집": "Edit Ivory Note",
+    "초록 이름 편집": "Edit Green Name",
+    "초록 문자 또는 Fn 단축키 편집": "Edit Character or Fn Shortcut for Green",
+    "초록 메모 편집": "Edit Green Note",
+    "녹색 이름 편집": "Edit Green Name",
+    "녹색 문자 또는 Fn 단축키 편집": "Edit Character or Fn Shortcut for Green",
+    "녹색 메모 편집": "Edit Green Note",
+    "진녹 이름 편집": "Edit Dark Green Name",
+    "진녹 문자 또는 Fn 단축키 편집": "Edit Character or Fn Shortcut for Dark Green",
+    "진녹 메모 편집": "Edit Dark Green Note",
+    "청록 이름 편집": "Edit Teal Name",
+    "청록 문자 또는 Fn 단축키 편집": "Edit Character or Fn Shortcut for Teal",
+    "청록 메모 편집": "Edit Teal Note",
+    "하늘 이름 편집": "Edit Sky Blue Name",
+    "하늘 문자 또는 Fn 단축키 편집": "Edit Character or Fn Shortcut for Sky Blue",
+    "하늘 메모 편집": "Edit Sky Blue Note",
+    "연청 이름 편집": "Edit Light Blue Name",
+    "연청 문자 또는 Fn 단축키 편집": "Edit Character or Fn Shortcut for Light Blue",
+    "연청 메모 편집": "Edit Light Blue Note",
+    "파랑 이름 편집": "Edit Blue Name",
+    "파랑 문자 또는 Fn 단축키 편집": "Edit Character or Fn Shortcut for Blue",
+    "파랑 메모 편집": "Edit Blue Note",
+    "보라 이름 편집": "Edit Purple Name",
+    "보라 문자 또는 Fn 단축키 편집": "Edit Character or Fn Shortcut for Purple",
+    "보라 메모 편집": "Edit Purple Note",
+    "자주 이름 편집": "Edit Violet Name",
+    "자주 문자 또는 Fn 단축키 편집": "Edit Character or Fn Shortcut for Violet",
+    "자주 메모 편집": "Edit Violet Note",
+    "분홍 이름 편집": "Edit Pink Name",
+    "분홍 문자 또는 Fn 단축키 편집": "Edit Character or Fn Shortcut for Pink",
+    "분홍 메모 편집": "Edit Pink Note",
+    "코드창 ÿc0 반영: 켜짐": "Keep ÿc0 in Code Pane: On",
+    "코드창 ÿc0 반영: 꺼짐": "Keep ÿc0 in Code Pane: Off",
+    "모든 탭 모두 바꾸기": "Replace All Across Tabs",
+    "모든 탭 모두 바꾸기 취소": "Replace All Across Tabs canceled",
+    "모든 탭의 처음까지 찾았습니다.": "Reached the beginning of all tabs.",
+    "모든 탭의 끝까지 찾았습니다.": "Reached the end of all tabs.",
+    "글꼴 색상 복사": "Copy Font Color",
+    "복사한 색상 붙여넣기": "Paste Copied Color",
+    "편집창 선택 영역 첫 글자의 글꼴 색상을 복사합니다.": "Copy the font color of the first character in the Editor selection.",
+    "복사한 글꼴 색상을 편집창 선택 영역에 적용합니다.": "Apply the copied font color to the Editor selection.",
+    "색상 매핑 없이 텍스트로 붙여넣습니다.": "Paste as text without color mapping.",
+    "D2R 툴팁편집기로 열기": "Open with D2R Tooltip Editor",
+    "Windows 쉘 메뉴 설정을 적용하지 못했습니다.": "Failed to apply the Windows shell menu setting.",
+    "파일 열기": "Open File",
+    "드래그앤드롭": "Drag and Drop",
+    "Windows 쉘 열기": "Windows shell open",
+    "Windows 쉘 파일 열기 실패:": "Failed to open file from Windows shell:",
+    "글꼴 색상 복사는 편집창 선택 영역에서만 사용할 수 있습니다.": "Copy Font Color is available only for a selection in the Editor.",
+    "글꼴 색상을 복사할 선택 영역 없음": "No selection to copy a font color from.",
+    "복사한 글꼴 색상 없음": "No copied font color.",
+    "복사한 색상 붙여넣기는 편집창 선택 영역에서만 사용할 수 있습니다.": "Paste Copied Color is available only for a selection in the Editor.",
+    "복사한 색상을 붙여넣을 선택 영역 없음": "No selection to apply the copied color to.",
+    "모든 탭 찾기: 문서 탭 이동": "Find Across Tabs: switched document tab",
+    "모든 탭 찾기 결과 이동": "Moved to a Find Across Tabs result",
+    "모든 탭 바꾸기 대상 이동": "Moved to a Replace Across Tabs target",
+    "모든 탭 다음 바꾸기 대상 이동": "Moved to the next Replace Across Tabs target",
+    "바꾸기 완료: 모든 탭에 다음 대상 없음": "Replace complete: no next target across tabs",
+    "삭제 완료: 모든 탭에 다음 대상 없음": "Delete complete: no next target across tabs",
+    "6자리 HEX 값(0-9, A-F)만 입력할 수 있습니다.": "Enter a 6-digit HEX value using 0-9 and A-F only.",
+    "시스템 설치 글꼴": "Installed System Fonts",
+    "즐겨찾기 글꼴": "Favorite font",
+    "비-txt": "non-txt",
+    "열기 실패": "open failed",
+    "txt 파일이 없습니다.": "No txt files found.",
+    "txt 파일을 열지 못했습니다.": "Failed to open txt file(s).",
+    "현재 폰트:": "Current font:",
+    "알 수 없음": "Unknown",
+    "글리프 목록 준비 중...": "Preparing glyph list...",
+    "기본 폰트": "Base Font",
+    "출력 폰트": "Output Font",
+    "기본 폰트 설명": "About the base font",
+    "수정되지 않은 D2R 바닐라 Kodia 폰트입니다. 현재 출력 폰트의 커스텀 유니코드 글리프가 바닐라 게임 화면에서는 어떻게 보일지 비교하기 위한 참고용입니다.": "This is the unmodified vanilla D2R Kodia font. Use it as a reference for how a custom Unicode glyph may appear in an unmodified game font.",
+    "현재 출력 폰트에서는 이 글리프를 지원하지 않습니다.": "The current output font does not contain this glyph.",
+    "기본값으로 지정된 글리프": "Default glyph",
+    "즐겨찾기 등록": "Add to Favorites",
+    "즐겨찾기 해제": "Remove from Favorites",
+    "즐겨찾기 초기화": "Reset Favorites",
+    "즐겨찾기 불러오기..": "Import Favorites..",
+    "즐겨찾기 내보내기..": "Export Favorites..",
+    "기본값으로 지정": "Set as Default",
+    "기본값으로 지정할 경우 오른쪽 마우스 메뉴를 통해 편집창에서 간단하게 입력할 수 있습니다.": "After setting a default, you can quickly insert it in the editor from the right-click menu.",
+    "유니코드 즐겨찾기 내보내기 취소": "Unicode favorites export canceled",
+    "유니코드 즐겨찾기 불러오기 취소": "Unicode favorites import canceled",
+    "즐겨찾기 불러오기": "Import Favorites",
+    "잘못된 형식입니다. 유니코드 즐겨찾기 백업 파일만 불러올 수 있습니다.": "Invalid format. Only a Unicode favorites backup file can be imported.",
+    "유니코드 즐겨찾기와 기본값을 초기 상태로 되돌리시겠습니까?": "Reset Unicode favorites and the default glyph to their initial values?",
+    "유니코드 즐겨찾기 초기화": "Unicode favorites reset",
+    "유효한 유니코드 주소가 아닙니다.": "Invalid Unicode address.",
+    "현재 폰트의 글리프 목록을 읽을 수 없습니다:": "Could not read the current font glyph list:",
+    "# 즐겨찾기 유니코드 주소만 저장합니다.": "# Only favorite Unicode addresses are stored."
+  },
+  "patterns": [
+    [
+      "^비-txt ([0-9,]+)개 제외$",
+      "Excluded $1 non-txt file(s)"
+    ],
+    [
+      "^열기 실패 ([0-9,]+)개$",
+      "$1 file(s) failed to open"
+    ],
+    [
+      "^(.+): txt 파일이 없습니다\\.$",
+      "$1: No txt files found."
+    ],
+    [
+      "^(.+): txt ([0-9,]+)개 열기 완료(?: \\((.+)\\))?$",
+      "$1: opened $2 txt file(s)$3"
+    ],
+    [
+      "^(.+): txt 파일을 열지 못했습니다\\.$",
+      "$1: Failed to open txt file(s)."
+    ],
+    [
+      "^모든 탭 모두 찾기: ([0-9,]+)개 / ([0-9,]+)개 탭$",
+      "Find All Across Tabs: $1 matches / $2 tabs"
+    ],
+    [
+      "^글꼴 색상 복사: (.+)$",
+      "Copy Font Color: $1"
+    ],
+    [
+      "^저장되지 않음(\\*)$",
+      "Not Saved$1"
+    ],
+    [
+      "^새 문서 ([0-9A-Za-z]+)$",
+      "New $1"
+    ],
+    [
+      "^([0-9,]+)행 시작으로 이동$",
+      "Moved to the start of line $1"
+    ],
+    [
+      "^([0-9,]+)행 끝으로 이동$",
+      "Moved to the end of line $1"
+    ],
+    [
+      "^양쪽 끝 공백: ([0-9,]+)개$",
+      "Document-edge spaces: $1"
+    ],
+    [
+      "^행 시작: ([0-9,]+)개$",
+      "Line-start spaces: $1"
+    ],
+    [
+      "^행 꼬리: ([0-9,]+)개$",
+      "Line-end spaces: $1"
+    ],
+    [
+      "^공백 제거: ([0-9,]+)개$",
+      "Spaces removed: $1"
+    ],
+    [
+      "^다중 공백 축약: ([0-9,]+)개$",
+      "Repeated spaces collapsed: $1"
+    ],
+    [
+      "^줄바꿈 제거: ([0-9,]+)개$",
+      "Line breaks removed: $1"
+    ],
+    [
+      "^중복 줄바꿈 제거: ([0-9,]+)개$",
+      "Duplicate line breaks removed: $1"
+    ],
+    [
+      "^0 너비 문자 제거: ([0-9,]+)개$",
+      "Zero-width characters removed: $1"
+    ],
+    [
+      "^탭 문자 제거: ([0-9,]+)개$",
+      "Tab characters removed: $1"
+    ],
+    [
+      "^탭 문자 교체: ([0-9,]+)개$",
+      "Tab characters replaced: $1"
+    ],
+    [
+      "^불필요한 문자열 정리: 제거 ([0-9,]+)개$",
+      "Unwanted characters cleaned: $1 removed"
+    ],
+    [
+      "^불필요한 문자열 정리: 치환 ([0-9,]+)개$",
+      "Unwanted characters cleaned: $1 replaced"
+    ],
+    [
+      "^불필요한 문자열 정리: 제거 ([0-9,]+)개, 치환 ([0-9,]+)개$",
+      "Unwanted characters cleaned: $1 removed, $2 replaced"
+    ],
+    [
+      "^기본: (F(?:[1-9]|1[0-2])) 단축키 지정$",
+      "Default: assigned shortcut $1"
+    ],
+    [
+      "^기본: (F(?:[1-9]|1[0-2])) 해제, 기본 문자 단축키로 복귀$",
+      "Default: cleared $1 and restored the default character shortcut"
+    ],
+    [
+      "^백색: (F(?:[1-9]|1[0-2])) 단축키 지정$",
+      "White: assigned shortcut $1"
+    ],
+    [
+      "^백색: (F(?:[1-9]|1[0-2])) 해제, 기본 문자 단축키로 복귀$",
+      "White: cleared $1 and restored the default character shortcut"
+    ],
+    [
+      "^회색: (F(?:[1-9]|1[0-2])) 단축키 지정$",
+      "Gray: assigned shortcut $1"
+    ],
+    [
+      "^회색: (F(?:[1-9]|1[0-2])) 해제, 기본 문자 단축키로 복귀$",
+      "Gray: cleared $1 and restored the default character shortcut"
+    ],
+    [
+      "^검정: (F(?:[1-9]|1[0-2])) 단축키 지정$",
+      "Black: assigned shortcut $1"
+    ],
+    [
+      "^검정: (F(?:[1-9]|1[0-2])) 해제, 기본 문자 단축키로 복귀$",
+      "Black: cleared $1 and restored the default character shortcut"
+    ],
+    [
+      "^빨강: (F(?:[1-9]|1[0-2])) 단축키 지정$",
+      "Red: assigned shortcut $1"
+    ],
+    [
+      "^빨강: (F(?:[1-9]|1[0-2])) 해제, 기본 문자 단축키로 복귀$",
+      "Red: cleared $1 and restored the default character shortcut"
+    ],
+    [
+      "^진홍: (F(?:[1-9]|1[0-2])) 단축키 지정$",
+      "Crimson: assigned shortcut $1"
+    ],
+    [
+      "^진홍: (F(?:[1-9]|1[0-2])) 해제, 기본 문자 단축키로 복귀$",
+      "Crimson: cleared $1 and restored the default character shortcut"
+    ],
+    [
+      "^적갈: (F(?:[1-9]|1[0-2])) 단축키 지정$",
+      "Reddish Brown: assigned shortcut $1"
+    ],
+    [
+      "^적갈: (F(?:[1-9]|1[0-2])) 해제, 기본 문자 단축키로 복귀$",
+      "Reddish Brown: cleared $1 and restored the default character shortcut"
+    ],
+    [
+      "^주황: (F(?:[1-9]|1[0-2])) 단축키 지정$",
+      "Orange: assigned shortcut $1"
+    ],
+    [
+      "^주황: (F(?:[1-9]|1[0-2])) 해제, 기본 문자 단축키로 복귀$",
+      "Orange: cleared $1 and restored the default character shortcut"
+    ],
+    [
+      "^금색: (F(?:[1-9]|1[0-2])) 단축키 지정$",
+      "Gold: assigned shortcut $1"
+    ],
+    [
+      "^금색: (F(?:[1-9]|1[0-2])) 해제, 기본 문자 단축키로 복귀$",
+      "Gold: cleared $1 and restored the default character shortcut"
+    ],
+    [
+      "^소색: (F(?:[1-9]|1[0-2])) 단축키 지정$",
+      "Tan: assigned shortcut $1"
+    ],
+    [
+      "^소색: (F(?:[1-9]|1[0-2])) 해제, 기본 문자 단축키로 복귀$",
+      "Tan: cleared $1 and restored the default character shortcut"
+    ],
+    [
+      "^노랑: (F(?:[1-9]|1[0-2])) 단축키 지정$",
+      "Yellow: assigned shortcut $1"
+    ],
+    [
+      "^노랑: (F(?:[1-9]|1[0-2])) 해제, 기본 문자 단축키로 복귀$",
+      "Yellow: cleared $1 and restored the default character shortcut"
+    ],
+    [
+      "^미색: (F(?:[1-9]|1[0-2])) 단축키 지정$",
+      "Ivory: assigned shortcut $1"
+    ],
+    [
+      "^미색: (F(?:[1-9]|1[0-2])) 해제, 기본 문자 단축키로 복귀$",
+      "Ivory: cleared $1 and restored the default character shortcut"
+    ],
+    [
+      "^초록: (F(?:[1-9]|1[0-2])) 단축키 지정$",
+      "Green: assigned shortcut $1"
+    ],
+    [
+      "^초록: (F(?:[1-9]|1[0-2])) 해제, 기본 문자 단축키로 복귀$",
+      "Green: cleared $1 and restored the default character shortcut"
+    ],
+    [
+      "^녹색: (F(?:[1-9]|1[0-2])) 단축키 지정$",
+      "Green: assigned shortcut $1"
+    ],
+    [
+      "^녹색: (F(?:[1-9]|1[0-2])) 해제, 기본 문자 단축키로 복귀$",
+      "Green: cleared $1 and restored the default character shortcut"
+    ],
+    [
+      "^진녹: (F(?:[1-9]|1[0-2])) 단축키 지정$",
+      "Dark Green: assigned shortcut $1"
+    ],
+    [
+      "^진녹: (F(?:[1-9]|1[0-2])) 해제, 기본 문자 단축키로 복귀$",
+      "Dark Green: cleared $1 and restored the default character shortcut"
+    ],
+    [
+      "^청록: (F(?:[1-9]|1[0-2])) 단축키 지정$",
+      "Teal: assigned shortcut $1"
+    ],
+    [
+      "^청록: (F(?:[1-9]|1[0-2])) 해제, 기본 문자 단축키로 복귀$",
+      "Teal: cleared $1 and restored the default character shortcut"
+    ],
+    [
+      "^하늘: (F(?:[1-9]|1[0-2])) 단축키 지정$",
+      "Sky Blue: assigned shortcut $1"
+    ],
+    [
+      "^하늘: (F(?:[1-9]|1[0-2])) 해제, 기본 문자 단축키로 복귀$",
+      "Sky Blue: cleared $1 and restored the default character shortcut"
+    ],
+    [
+      "^연청: (F(?:[1-9]|1[0-2])) 단축키 지정$",
+      "Light Blue: assigned shortcut $1"
+    ],
+    [
+      "^연청: (F(?:[1-9]|1[0-2])) 해제, 기본 문자 단축키로 복귀$",
+      "Light Blue: cleared $1 and restored the default character shortcut"
+    ],
+    [
+      "^파랑: (F(?:[1-9]|1[0-2])) 단축키 지정$",
+      "Blue: assigned shortcut $1"
+    ],
+    [
+      "^파랑: (F(?:[1-9]|1[0-2])) 해제, 기본 문자 단축키로 복귀$",
+      "Blue: cleared $1 and restored the default character shortcut"
+    ],
+    [
+      "^보라: (F(?:[1-9]|1[0-2])) 단축키 지정$",
+      "Purple: assigned shortcut $1"
+    ],
+    [
+      "^보라: (F(?:[1-9]|1[0-2])) 해제, 기본 문자 단축키로 복귀$",
+      "Purple: cleared $1 and restored the default character shortcut"
+    ],
+    [
+      "^자주: (F(?:[1-9]|1[0-2])) 단축키 지정$",
+      "Violet: assigned shortcut $1"
+    ],
+    [
+      "^자주: (F(?:[1-9]|1[0-2])) 해제, 기본 문자 단축키로 복귀$",
+      "Violet: cleared $1 and restored the default character shortcut"
+    ],
+    [
+      "^분홍: (F(?:[1-9]|1[0-2])) 단축키 지정$",
+      "Pink: assigned shortcut $1"
+    ],
+    [
+      "^분홍: (F(?:[1-9]|1[0-2])) 해제, 기본 문자 단축키로 복귀$",
+      "Pink: cleared $1 and restored the default character shortcut"
+    ],
+    [
+      "^탭 구현: ([0-9,]+)개$",
+      "Tabs implemented: $1"
+    ],
+    [
+      "^탭 복원: ([0-9,]+)개$",
+      "Tabs restored: $1"
+    ],
+    [
+      "^([0-9,]+)행 (.+)으로 이동$",
+      "Moved to $2 of line $1"
+    ],
+    [
+      "^(.+) (.+) 정렬$",
+      "Sorted $1 $2"
+    ],
+    [
+      "^대용량 모드에서는 입력 지연을 줄이기 위해 코드창 기능을 일시 중단합니다\\.\\n\\n대용량 모드가 해제되면 다시 표시합니다\\.\\n\\n문서 저장/편집은 정상처리 됩니다\\.\\n\\n대용량 모드에서는 일부 기능이 작동하지 않거나 불완전하게 작동할 수 있습니다\\.\\n\\n\\[대용량모드 진입 기준\\]\\n- 전체 문자 수 : (.+)자 이상 \\(코드창 기준\\)\\n- 실제 표시 문자 : (.+)자 이상 \\(색상코드 제외한 기준\\)\\n- 줄 수 : (.+)행 이상$",
+      "Large-file mode temporarily pauses the code pane to reduce input latency.\\n\\nThe code pane is shown again when large-file mode ends.\\n\\nDocument editing and saving continue to work normally.\\n\\nSome features may be unavailable or incomplete in large-file mode.\\n\\n[Large-file mode thresholds]\\n- Total characters: $1 or more (code pane)\\n- Visible characters: $2 or more (excluding color codes)\\n- Lines: $3 or more"
+    ],
+    [
+      "^(.+): (.+) 해제, 기본 문자 단축키로 복귀$",
+      "$1: cleared $2 and restored the default character shortcut"
+    ],
+    [
+      "^(.+): (.+) 단축키 지정$",
+      "$1: assigned shortcut $2"
+    ],
+    [
+      "^모든 U\\+2060 삭제: ([0-9,]+)개$",
+      "Delete All U+2060: $1 removed"
+    ],
+    [
+      "^(.+)에서 (.+) 찾음$",
+      "Found $2 in $1"
+    ],
+    [
+      "^모두 바꾸기 완료: ([0-9,]+)개$",
+      "Replace All complete: $1"
+    ],
+    [
+      "^([0-9,]+)개$",
+      "$1"
+    ],
+    [
+      "^총 ([0-9,]+)개$",
+      "Total: $1"
+    ],
+    [
+      "^([0-9,]+)\\. ([0-9,]+)행 ([0-9,]+)열$",
+      "$1. Line $2, Column $3"
+    ],
+    [
+      "^표시는 500개까지만 합니다\\. 나머지 ([0-9,]+)개는 생략\\.$",
+      "Only the first 500 results are shown. The remaining $1 are omitted."
+    ],
+    [
+      "^모두 찾기: ([0-9,]+)개$",
+      "Find All: $1"
+    ],
+    [
+      "^전체 행수\\(([0-9,]+)행\\)보다 큰 행 번호는 입력할 수 없습니다\\.$",
+      "The line number cannot exceed the total number of lines ($1)."
+    ],
+    [
+      "^([0-9,]+)행 (시작|끝)으로 이동$",
+      "Moved to the $2 of line $1"
+    ],
+    [
+      "^(.+)으로 보기$",
+      "View as $1"
+    ],
+    [
+      "^기본값 레이아웃으로 전환: (.+)$",
+      "Switched to default layout: $1"
+    ],
+    [
+      "^레이아웃: (.+)$",
+      "Layout: $1"
+    ],
+    [
+      "^([0-9,]+)자리$",
+      "$1 digits"
+    ],
+    [
+      "^총 색상 수: ([0-9,]+)개$",
+      "Total colors: $1"
+    ],
+    [
+      "^(.+) (오름차순|내림차순) 정렬$",
+      "Sorted $1 $2"
+    ],
+    [
+      "^기본 글리프 (.+) 지정$",
+      "Default glyph set to $1"
+    ],
+    [
+      "^(.+) 글리프를 추가하시겠습니까\\?$",
+      "Add glyph $1?"
+    ],
+    [
+      "^선택한 글리프 ([0-9,]+)개 삭제를 확인하시겠습니까\\?\\n([\\s\\S]+)$",
+      "Delete the $1 selected glyph(s)?\\n$2"
+    ],
+    [
+      "^글리프가 삭제되었습니다\\.\\n\\n삭제된 글리프: ([0-9,]+)개\\n대상:\\n([\\s\\S]+)$",
+      "Glyphs deleted.\\n\\nDeleted glyphs: $1\\nTargets:\\n$2"
+    ],
+    [
+      "^글리프 ([0-9,]+)개 삭제$",
+      "Deleted $1 glyph(s)"
+    ],
+    [
+      "^선택 ([0-9,]+)개$",
+      "$1 selected"
+    ],
+    [
+      "^([0-9,]+)개 글꼴 표시$",
+      "$1 fonts shown"
+    ],
+    [
+      "^탭 너비 변경: ([0-9,]+)칸$",
+      "Tab width changed: $1"
+    ],
+    [
+      "^([0-9,]+)자 / ([0-9,]+)행$",
+      "$1 chars / $2 lines"
+    ],
+    [
+      "^반영된 변경 사항이 없습니다\\.\\n\\n([\\s\\S]+)$",
+      "No changes were applied.\\n\\n$1"
+    ],
+    [
+      "^텍스트 정리가 반영되었습니다\\.\\n\\n([\\s\\S]+)$",
+      "Text cleanup was applied.\\n\\n$1"
+    ],
+    [
+      "^유니코드 목록 불러오기 완료: ([0-9,]+)개 추가, 이미 존재 ([0-9,]+)개$",
+      "Unicode list imported: $1 added, $2 already existed"
+    ],
+    [
+      "^툴팁편집기 (.+)$",
+      "Tooltip Editor $1"
+    ],
+    [
+      "^(.+): ([0-9,]+)개$",
+      "$1: $2"
+    ],
+    [
+      "^제거 ([0-9,]+)개$",
+      "Removed $1"
+    ],
+    [
+      "^치환 ([0-9,]+)개$",
+      "Replaced $1"
+    ],
+    [
+      "^\"(.+)\" 입력 \\(기본값\\)$",
+      "Insert \"$1\" (Default)"
+    ],
+    [
+      "^(.+) \\[개발자모드\\]$",
+      "$1 [Developer Mode]"
+    ],
+    [
+      "^탭을 현재 글꼴/탭 너비 기준 검은 점·공백 조합으로 구현하시겠습니까\\?\\n\\n대상 탭: ([0-9,]+)개$",
+      "Implement tabs as black-dot and space sequences using the current font and tab width?\\n\\nTarget tabs: $1"
+    ],
+    [
+      "^([0-9,]+) / ([0-9,]+)개 탭 처리$",
+      "Processing tabs: $1 / $2"
+    ],
+    [
+      "^U\\+([0-9A-Fa-f]{4}) 입력$",
+      "Inserted U+$1"
+    ],
+    [
+      "^저장 완료 \\(색상코드 ([0-9,]+)개 정리\\)$",
+      "Saved ($1 color code(s) cleaned)"
+    ],
+    [
+      "^다른이름으로 저장 완료 \\(색상코드 ([0-9,]+)개 정리\\)$",
+      "Saved As ($1 color code(s) cleaned)"
+    ],
+    [
+      "^다운로드 방식으로 저장 \\(색상코드 ([0-9,]+)개 정리\\)$",
+      "Saved by Download ($1 color code(s) cleaned)"
+    ],
+    [
+      "^(.+) - 복제$",
+      "$1 - Copy"
+    ],
+    [
+      "^저장된 문서 ([0-9,]+)개 복원$",
+      "Restored $1 saved document(s)"
+    ],
+    [
+      "^예기치 못한 오류로 인해 추출이 취소되었습니다\\.\\n\\n선택한 언어 키\\((.+)\\)를 찾지 못했습니다\\.$",
+      "Extraction was canceled because of an unexpected error.\\n\\nThe selected language key ($1) was not found."
+    ],
+    [
+      "^정상적으로 추출되었습니다\\.\\n\\n추출된 항목: ([0-9,]+)개$",
+      "Extraction completed successfully.\\n\\nExtracted items: $1"
+    ],
+    [
+      "^대용량 최적화 ON: 편집창은 화면 주변 구간만 불러오며 색상 표시는 계속 유지합니다 \\(([0-9,]+)자 / ([0-9,]+)행\\)$",
+      "Large-file optimization ON: the Editor loads only the area around the viewport while colors remain visible ($1 chars / $2 lines)"
+    ],
+    [
+      "^(.+) 이름 편집$",
+      "Edit $1 Name"
+    ],
+    [
+      "^(.+) 문자 또는 Fn 단축키 편집$",
+      "Edit Character or Fn Shortcut for $1"
+    ],
+    [
+      "^(.+) 메모 편집$",
+      "Edit $1 Note"
+    ],
+    [
+      "^기본값 불러옴: (.+)$",
+      "Default Loaded: $1"
+    ],
+    [
+      "^이미 다른 색상에서 사용 중인 문자입니다: (.+)$",
+      "This character is already used by another color: $1"
+    ],
+    [
+      "^이미 다른 색상 단축키와 겹치는 문자입니다\\.\\n\\n문자: (.+)$",
+      "This character conflicts with another color shortcut.\\n\\nCharacter: $1"
+    ],
+    [
+      "^(.+) 지정 대기 중입니다\\. 확인을 누르면 적용됩니다\\.$",
+      "$1 is pending. Press OK to apply it."
+    ],
+    [
+      "^색상([0-9]+)$",
+      "Color $1"
+    ],
+    [
+      "^선택한 색상들을 삭제하시겠습니까\\?\\n\\n총 갯수: ([0-9,]+)개\\n대상 색상:\\n([\\s\\S]+)$",
+      "Delete the selected colors?\\n\\nTotal: $1\\nColors:\\n$2"
+    ],
+    [
+      "^(.+) \\(대표 글꼴\\)$",
+      "$1 (Primary Font)"
+    ],
+    [
+      "^(.+) \\(대체 글꼴\\)$",
+      "$1 (Fallback Font)"
+    ],
+    [
+      "^([0-9,]+)개 글꼴$",
+      "$1 fonts"
+    ],
+    [
+      "^예시명 : (.+)$",
+      "Example Name: $1"
+    ],
+    [
+      "^(.+)의 최대값은 10입니다\\.$",
+      "The maximum value for $1 is 10."
+    ],
+    [
+      "^(.+) 탭의 설정값만 기본값으로 불러옵니다\\. 초기값으로 돌아간 뒤에도 취소를 누르면 저장된 설정값으로 되돌릴 수 있습니다\\. 진행하시겠습니까\\?$",
+      "Load defaults only for the $1 tab? You can still press Cancel afterward to restore the saved values."
+    ],
+    [
+      "^편집창 글꼴 변경: (.+)$",
+      "Editor Font Changed: $1"
+    ],
+    [
+      "^대표 글꼴 로드 실패: (.+)$",
+      "Failed to Load Primary Font: $1"
+    ],
+    [
+      "^불필요한 문자열 정리: (.+)$",
+      "Unwanted Characters Cleaned: $1"
+    ],
+    [
+      "^잘못된 주소가 있습니다\\. 문제 줄: (.+)$",
+      "Invalid address found. Problem lines: $1"
+    ],
+    [
+      "^기본 글리프 (U\\+[0-9A-Fa-f]{4}) 지정$",
+      "Default Glyph Set: $1"
+    ],
+    [
+      "^(U\\+[0-9A-Fa-f]{4}) 글리프를 추가하시겠습니까\\?$",
+      "Add glyph $1?"
+    ],
+    [
+      "^글리프 (U\\+[0-9A-Fa-f]{4}) 추가$",
+      "Glyph Added: $1"
+    ],
+    [
+      "^툴팁편집기 (v[0-9.]+)$",
+      "Tooltip Editor $1"
+    ],
+    [
+      "^코드창에서 다음 찾음$",
+      "Next match found in Code"
+    ],
+    [
+      "^코드창에서 이전 찾음$",
+      "Previous match found in Code"
+    ],
+    [
+      "^편집창에서 다음 찾음$",
+      "Next match found in Editor"
+    ],
+    [
+      "^편집창에서 이전 찾음$",
+      "Previous match found in Editor"
+    ],
+    [
+      "^([0-9,]+)개 항목을 모두 바꾸겠습니까\\?$",
+      "Replace all $1 items?"
+    ],
+    [
+      "^\"(.+)\"에 대한 변경사항을 저장할까요\\?$",
+      "Save changes to \"$1\"?"
+    ],
+    [
+      "^(\\d+)자 / (\\d+)행$",
+      "$1 chars / $2 lines"
+    ],
+    [
+      "^(\\d+)행 (\\d+)열로 이동$",
+      "Moved to line $1, column $2"
+    ],
+    [
+      "^(\\d+)개 글꼴 표시$",
+      "$1 fonts displayed"
+    ],
+    [
+      "^탭 구현: (\\d+)개$",
+      "Implemented $1 tab(s)"
+    ],
+    [
+      "^탭 복원: (\\d+)개$",
+      "Restored $1 tab(s)"
+    ],
+    [
+      "^탭 너비 변경: (\\d+)칸$",
+      "Tab width changed to $1"
+    ],
+    [
+      "^저장된 문서 (\\d+)개 복원$",
+      "Restored $1 saved document(s)"
+    ],
+    [
+      "^선택 (\\d+)개$",
+      "$1 selected"
+    ],
+    [
+      "^총 색상 수: (\\d+)개$",
+      "Total colors: $1"
+    ],
+    [
+      "^(.+)의 최대값은 (\\d+)입니다\\.$",
+      "The maximum value for $1 is $2."
+    ],
+    [
+      "^(.+): 변경 없음$",
+      "$1: no changes"
+    ],
+    [
+      "^(.+) 실패:\\s*(.*)$",
+      "$1 failed: $2"
+    ],
+    [
+      "^저장 실패:\\s*(.*)$",
+      "Save failed: $1"
+    ],
+    [
+      "^열기 실패:\\s*(.*)$",
+      "Open failed: $1"
+    ],
+    [
+      "^최근 문서 열기 실패:\\s*(.*)$",
+      "Failed to open recent document: $1"
+    ],
+    [
+      "^설정 가져오기 실패:\\s*(.*)$",
+      "Settings import failed: $1"
+    ],
+    [
+      "^설정 내보내기 실패:\\s*(.*)$",
+      "Settings export failed: $1"
+    ],
+    [
+      "^글꼴 목록 조회 실패:\\s*(.*)$",
+      "Failed to load font list: $1"
+    ],
+    [
+      "^개발자도구 열기 실패$",
+      "Failed to open Developer Tools"
+    ],
+    [
+      "^(.+) 문서$",
+      "$1 document"
+    ],
+    [
+      "^선택 (\\\\d+)개$",
+      "$1 selected"
+    ],
+    [
+      "^(\\\\d+)개 추가, 이미 존재 (\\\\d+)개$",
+      "$1 added, $2 already existed"
+    ],
+    [
+      "^글리프 (.+) 추가$",
+      "Glyph $1 added"
+    ],
+    [
+      "^글리프 (\\\\d+)개 삭제$",
+      "$1 glyph(s) deleted"
+    ],
+    [
+      "^색상코드 (\\\\d+)개 정리$",
+      "$1 color code(s) cleaned"
+    ],
+    [
+      "^(.*): 변경 없음$",
+      "$1: no changes"
+    ],
+    [
+      "^총 (\\\\d+)개$",
+      "Total: $1"
+    ],
+    [
+      "^(\\\\d+)자 / (\\\\d+)행$",
+      "$1 chars / $2 lines"
+    ],
+    [
+      "^행 (\\\\d+), 열 (\\\\d+)$",
+      "Line $1, Column $2"
+    ],
+    [
+      "^(.+) 완료$",
+      "$1 complete"
+    ],
+    [
+      "^(.+) 취소$",
+      "$1 canceled"
+    ],
+    [
+      "^(.+) 실패: (.*)$",
+      "$1 failed: $2"
+    ],
+    [
+      "^총 ([0-9,]+)개 · ([0-9,]+)개 탭$",
+      "Total: $1 · $2 tabs"
+    ],
+    [
+      "^([0-9,]+)개 항목을 ([0-9,]+)개 탭에서 모두 바꾸겠습니까\\?$",
+      "Replace all $1 items across $2 tabs?"
+    ],
+    [
+      "^모든 탭 모두 바꾸기 완료: ([0-9,]+)개 / ([0-9,]+)개 탭$",
+      "Replace All Across Tabs complete: $1 items / $2 tabs"
+    ],
+    [
+      "^모든 탭 모두 바꾸기: ([0-9,]+)개$",
+      "Replace All Across Tabs: $1 items"
+    ],
+    [
+      "^모든 탭 다음 찾음: (.+)$",
+      "Next match across tabs: $1"
+    ],
+    [
+      "^모든 탭 이전 찾음: (.+)$",
+      "Previous match across tabs: $1"
+    ],
+    [
+      "^바꿀 대상 표시: (.+)$",
+      "Replace target: $1"
+    ],
+    [
+      "^(.+): ([0-9,]+)행 ([0-9,]+)열로 이동$",
+      "Moved to $1: line $2, column $3"
+    ],
+    [
+      "^즐겨찾기 ([0-9,]+)개 · 현재 폰트 지원 ([0-9,]+)개$",
+      "Favorites $1 · Current font $2 glyphs"
+    ],
+    [
+      "^유니코드 즐겨찾기 ([0-9,]+)개 내보내기 완료$",
+      "Exported $1 Unicode favorite(s)"
+    ],
+    [
+      "^유니코드 즐겨찾기 불러오기 완료: ([0-9,]+)개 복원$",
+      "Imported $1 Unicode favorite(s)"
+    ],
+    [
+      "^유니코드 즐겨찾기 내보내기 실패:\\s*(.*)$",
+      "Unicode favorites export failed: $1"
+    ],
+    [
+      "^유니코드 즐겨찾기 불러오기 실패:\\s*(.*)$",
+      "Unicode favorites import failed: $1"
+    ],
+    [
+      "^(U\\+[0-9A-Fa-f]{4,6}) 즐겨찾기 등록$",
+      "$1 added to favorites"
+    ],
+    [
+      "^(U\\+[0-9A-Fa-f]{4,6}) 즐겨찾기 해제$",
+      "$1 removed from favorites"
+    ]
+  ],
+  "replacements": [
+    [
+      "프로그램이 만든 사용자 데이터 삭제",
+      "Delete User Data Created by the Program"
+    ],
+    [
+      "숫자만 입력할 수 있습니다",
+      "Only numbers can be entered"
+    ],
+    [
+      "외부 색상 근사 붙여넣기",
+      "Approximate External Color Paste"
+    ],
+    [
+      "색상 코드 포함 붙여넣기",
+      "Paste with Color Codes"
+    ],
+    [
+      "시스템 트레이로 최소화",
+      "Minimize to System Tray"
+    ],
+    [
+      "유니코드 목록 불러오기",
+      "Import Unicode List"
+    ],
+    [
+      "유니코드 목록 내보내기",
+      "Export Unicode List"
+    ],
+    [
+      "현재 파일 경로 열기",
+      "Open Current File Location"
+    ],
+    [
+      "visible 텍스트",
+      "Visible Text"
+    ],
+    [
+      "문서 탭 순서 변경",
+      "Reorder Document Tabs"
+    ],
+    [
+      "문서 탭 전환 취소",
+      "Document Tab Switch Canceled"
+    ],
+    [
+      "글리프 목록 초기화",
+      "Reset Glyph List"
+    ],
+    [
+      "기본 줄 간격 크기",
+      "Default Line Spacing"
+    ],
+    [
+      "대체 줄 간격 크기",
+      "Fallback Line Spacing"
+    ],
+    [
+      "도구모음 글꼴 크기",
+      "Toolbar Font Size"
+    ],
+    [
+      "색상 미리보기 크기",
+      "Color Preview Size"
+    ],
+    [
+      "글꼴 목록 준비 중",
+      "Preparing Font List"
+    ],
+    [
+      "시작 시 문서 복원",
+      "Restore Documents at Startup"
+    ],
+    [
+      "이용 및 배포 안내",
+      "Usage and Distribution Notice"
+    ],
+    [
+      "입력할 수 있습니다",
+      "can be entered"
+    ],
+    [
+      "다른이름으로 저장",
+      "Save As"
+    ],
+    [
+      "문자/Fn 도움말",
+      "Character/Fn Help"
+    ],
+    [
+      "도구모음 행 높이",
+      "Toolbar Row Height"
+    ],
+    [
+      "행 번호 열 너비",
+      "Line Number Column Width"
+    ],
+    [
+      "텍스트로 붙여넣기",
+      "Paste as Text"
+    ],
+    [
+      "다시 실행할 내용",
+      "Nothing to Redo"
+    ],
+    [
+      "텍스트 정리 결과",
+      "Text Cleanup Result"
+    ],
+    [
+      "JSON 키 추출",
+      "JSON Key Extraction"
+    ],
+    [
+      "행 번호 찾아가기",
+      "Go to Line"
+    ],
+    [
+      "시스템 설치 글꼴",
+      "Installed System Fonts"
+    ],
+    [
+      "실행 시 창 상태",
+      "Startup Window State"
+    ],
+    [
+      "찾을 수 없습니다",
+      "could not be found"
+    ],
+    [
+      "색상 순서 변경",
+      "Change Color Order"
+    ],
+    [
+      "색상 순서 편집",
+      "Edit Color Order"
+    ],
+    [
+      "색상 문자 지정",
+      "Assign Color Character"
+    ],
+    [
+      "색상 문자 중복",
+      "Duplicate Color Character"
+    ],
+    [
+      "색상 이름 편집",
+      "Edit Color Name"
+    ],
+    [
+      "색상 메모 편집",
+      "Edit Color Note"
+    ],
+    [
+      "대표 글꼴 선택",
+      "Select Primary Font"
+    ],
+    [
+      "대체 글꼴 선택",
+      "Select Fallback Font"
+    ],
+    [
+      "대표 글꼴 경로",
+      "Primary Font Path"
+    ],
+    [
+      "대체 글꼴 경로",
+      "Fallback Font Path"
+    ],
+    [
+      "대표 글꼴 크기",
+      "Primary Font Size"
+    ],
+    [
+      "대체 글꼴 크기",
+      "Fallback Font Size"
+    ],
+    [
+      "개발자도구 열기",
+      "Open Developer Tools"
+    ],
+    [
+      "기본 저장 경로",
+      "Default Save Folder"
+    ],
+    [
+      "유니코드 입력기",
+      "Unicode Input"
+    ],
+    [
+      "유니코드 글리프",
+      "Unicode Glyph"
+    ],
+    [
+      "유니코드 기본값",
+      "Unicode Default"
+    ],
+    [
+      "문서 저장 확인",
+      "Confirm Document Save"
+    ],
+    [
+      "붙여넣을 텍스트",
+      "Text to Paste"
+    ],
+    [
+      "실행취소할 내용",
+      "Nothing to Undo"
+    ],
+    [
+      "불필요한 문자열",
+      "Unwanted Characters"
+    ],
+    [
+      "다중 공백 축약",
+      "Collapse Multiple Spaces"
+    ],
+    [
+      "줄바꿈 및 공백",
+      "Line Breaks and Spaces"
+    ],
+    [
+      "실제 표시 문자",
+      "Visible Characters"
+    ],
+    [
+      "렌더링 도구모음",
+      "Rendering Toolbar"
+    ],
+    [
+      "글꼴 목록 조회",
+      "Load Font List"
+    ],
+    [
+      "직접 경로 사용",
+      "Use Direct Path"
+    ],
+    [
+      "기본값으로 지정",
+      "Set as Default"
+    ],
+    [
+      "최초 실행 테마",
+      "Startup Theme"
+    ],
+    [
+      "문서 표시 설정",
+      "Document Display Settings"
+    ],
+    [
+      "문서 탭 전환",
+      "Switch Document Tab"
+    ],
+    [
+      "문서 탭 닫기",
+      "Close Document Tab"
+    ],
+    [
+      "행 번호 크기",
+      "Line Number Size"
+    ],
+    [
+      "창 비율 조절",
+      "Resize Window Panes"
+    ],
+    [
+      "스크롤 동기화",
+      "Scroll Sync"
+    ],
+    [
+      "사용자 데이터",
+      "User Data"
+    ],
+    [
+      "최근 파일목록",
+      "Recent File List"
+    ],
+    [
+      "설정 가져오기",
+      "Import Settings"
+    ],
+    [
+      "설정 내보내기",
+      "Export Settings"
+    ],
+    [
+      "환경설정 범주",
+      "Preference Categories"
+    ],
+    [
+      "환경설정 적용",
+      "Apply Preferences"
+    ],
+    [
+      "목록 불러오기",
+      "Import List"
+    ],
+    [
+      "목록 내보내기",
+      "Export List"
+    ],
+    [
+      "복제할 문서명",
+      "Duplicate Document Name"
+    ],
+    [
+      "새 문서 제목",
+      "New Document Title"
+    ],
+    [
+      "새 문서 준비",
+      "New Document Ready"
+    ],
+    [
+      "브라우저 방식",
+      "Browser Mode"
+    ],
+    [
+      "다운로드 방식",
+      "Download Mode"
+    ],
+    [
+      "일반 붙여넣기",
+      "Regular Paste"
+    ],
+    [
+      "양쪽 끝 공백",
+      "Spaces at Both Ends"
+    ],
+    [
+      "행 시작 공백",
+      "Leading Spaces"
+    ],
+    [
+      "행 꼬리 공백",
+      "Trailing Spaces"
+    ],
+    [
+      "탭 문자 교체",
+      "Replace Tabs"
+    ],
+    [
+      "탭 문자 제거",
+      "Remove Tabs"
+    ],
+    [
+      "0 너비 문자",
+      "Zero-Width Character"
+    ],
+    [
+      "대소문자 구분",
+      "Match Case"
+    ],
+    [
+      "전체 문자 수",
+      "Total Characters"
+    ],
+    [
+      "레이아웃 선택",
+      "Select Layout"
+    ],
+    [
+      "기본 레이아웃",
+      "Default Layout"
+    ],
+    [
+      "즐겨찾기 글꼴",
+      "Favorite Fonts"
+    ],
+    [
+      "다크모드 색상",
+      "Dark Mode Colors"
+    ],
+    [
+      "데이모드 색상",
+      "Light Mode Colors"
+    ],
+    [
+      "시스템 트레이",
+      "System Tray"
+    ],
+    [
+      "검색기록 삭제",
+      "Clear Search History"
+    ],
+    [
+      "취소되었습니다",
+      "Canceled"
+    ],
+    [
+      "색상 도움말",
+      "Color Help"
+    ],
+    [
+      "이름 도움말",
+      "Name Help"
+    ],
+    [
+      "메모 도움말",
+      "Note Help"
+    ],
+    [
+      "자동 줄바꿈",
+      "Word Wrap"
+    ],
+    [
+      "설정 기본값",
+      "Defaults"
+    ],
+    [
+      "서로 바꾸기",
+      "Swap"
+    ],
+    [
+      "Fn 단축키",
+      "Fn Shortcut"
+    ],
+    [
+      "글리프 추가",
+      "Add Glyph"
+    ],
+    [
+      "글리프 삭제",
+      "Delete Glyph"
+    ],
+    [
+      "기본 글리프",
+      "Default Glyph"
+    ],
+    [
+      "문서명 변경",
+      "Rename Document"
+    ],
+    [
+      "저장할 문서",
+      "Document to Save"
+    ],
+    [
+      "텍스트 정리",
+      "Text Cleanup"
+    ],
+    [
+      "중복 줄바꿈",
+      "Duplicate Line Breaks"
+    ],
+    [
+      "찾을 문자열",
+      "Find Text"
+    ],
+    [
+      "바꿀 문자열",
+      "Replacement Text"
+    ],
+    [
+      "모두 바꾸기",
+      "Replace All"
+    ],
+    [
+      "편집창 기준",
+      "Editor"
+    ],
+    [
+      "코드창 기준",
+      "Code"
+    ],
+    [
+      "편집창 복사",
+      "Editor Copy"
+    ],
+    [
+      "편집창 정렬",
+      "Editor Alignment"
+    ],
+    [
+      "편집창 수정",
+      "Editor Modified"
+    ],
+    [
+      "코드창 수정",
+      "Code Modified"
+    ],
+    [
+      "편집창 상태",
+      "Editor Status"
+    ],
+    [
+      "코드창 상태",
+      "Code Status"
+    ],
+    [
+      "편집창 패널",
+      "Editor Panel"
+    ],
+    [
+      "코드창 패널",
+      "Code Panel"
+    ],
+    [
+      "대용량 모드",
+      "Large-File Mode"
+    ],
+    [
+      "좌측 편집창",
+      "Editor on Left"
+    ],
+    [
+      "우측 편집창",
+      "Editor on Right"
+    ],
+    [
+      "상단 편집창",
+      "Editor on Top"
+    ],
+    [
+      "하단 편집창",
+      "Editor on Bottom"
+    ],
+    [
+      "가운데 맞춤",
+      "Align Center"
+    ],
+    [
+      "오른쪽 맞춤",
+      "Align Right"
+    ],
+    [
+      "가운데 정렬",
+      "Center Alignment"
+    ],
+    [
+      "오른쪽 정렬",
+      "Right Alignment"
+    ],
+    [
+      "기본값 지정",
+      "Set Default"
+    ],
+    [
+      "기본값 해제",
+      "Clear Default"
+    ],
+    [
+      "기본값 확인",
+      "Confirm Default"
+    ],
+    [
+      "개발자모드",
+      "Developer Mode"
+    ],
+    [
+      "최근 문서",
+      "Recent Document"
+    ],
+    [
+      "전체 설정",
+      "All Settings"
+    ],
+    [
+      "색상 문자",
+      "Color Character"
+    ],
+    [
+      "색상 순서",
+      "Color Order"
+    ],
+    [
+      "색상 이름",
+      "Color Name"
+    ],
+    [
+      "색상 메모",
+      "Color Note"
+    ],
+    [
+      "색상 삭제",
+      "Delete Color"
+    ],
+    [
+      "색상 추가",
+      "Add Color"
+    ],
+    [
+      "바꿀 색상",
+      "Replacement Color"
+    ],
+    [
+      "찾을 색상",
+      "Find Color"
+    ],
+    [
+      "문자/Fn",
+      "Character/Fn"
+    ],
+    [
+      "문서 복제",
+      "Duplicate Document"
+    ],
+    [
+      "현재 문서",
+      "Current Document"
+    ],
+    [
+      "닫을 문서",
+      "Document to Close"
+    ],
+    [
+      "문서 갱신",
+      "Document Updated"
+    ],
+    [
+      "문서 수정",
+      "Document Modified"
+    ],
+    [
+      "파일 위치",
+      "File Location"
+    ],
+    [
+      "파일 경로",
+      "File Path"
+    ],
+    [
+      "파일 열기",
+      "Open File"
+    ],
+    [
+      "원본 파일",
+      "Original File"
+    ],
+    [
+      "다시 실행",
+      "Redo"
+    ],
+    [
+      "모두 선택",
+      "Select All"
+    ],
+    [
+      "대상 언어",
+      "Target Language"
+    ],
+    [
+      "다음 찾기",
+      "Find Next"
+    ],
+    [
+      "모두 찾기",
+      "Find All"
+    ],
+    [
+      "이전 방향",
+      "Search Backward"
+    ],
+    [
+      "되돌아찾기",
+      "Wrap Around"
+    ],
+    [
+      "와일드카드",
+      "Wildcard"
+    ],
+    [
+      "이동 위치",
+      "Move To"
+    ],
+    [
+      "문서 크기",
+      "Document Size"
+    ],
+    [
+      "현재 모드",
+      "Current Mode"
+    ],
+    [
+      "상태표시줄",
+      "Status Bar"
+    ],
+    [
+      "왼쪽 맞춤",
+      "Align Left"
+    ],
+    [
+      "왼쪽 정렬",
+      "Left Alignment"
+    ],
+    [
+      "글꼴 검색",
+      "Search Fonts"
+    ],
+    [
+      "대표 글꼴",
+      "Primary Font"
+    ],
+    [
+      "대체 글꼴",
+      "Fallback Font"
+    ],
+    [
+      "글꼴 크기",
+      "Font Size"
+    ],
+    [
+      "기본 폰트",
+      "Default Font"
+    ],
+    [
+      "출력 폰트",
+      "Output Font"
+    ],
+    [
+      "기본 글꼴",
+      "Default Font"
+    ],
+    [
+      "맑은 고딕",
+      "Malgun Gothic"
+    ],
+    [
+      "기본값으로",
+      "as default"
+    ],
+    [
+      "기본 복귀",
+      "Restore Default"
+    ],
+    [
+      "창 투명도",
+      "Window Opacity"
+    ],
+    [
+      "저장 경고",
+      "Save Warnings"
+    ],
+    [
+      "버전 정보",
+      "About"
+    ],
+    [
+      "메뉴표시줄",
+      "Menu Bar"
+    ],
+    [
+      "맨 아래로",
+      "Move to Bottom"
+    ],
+    [
+      "입력하세요",
+      "Enter a value"
+    ],
+    [
+      "선택하세요",
+      "Select an option"
+    ],
+    [
+      "정상적으로",
+      "normally"
+    ],
+    [
+      "선택 순서",
+      "Selection Order"
+    ],
+    [
+      "검색기록",
+      "Search History"
+    ],
+    [
+      "색상변환",
+      "Color Conversion"
+    ],
+    [
+      "색상연결",
+      "Color Mapping"
+    ],
+    [
+      "색상코드",
+      "Color Code"
+    ],
+    [
+      "색상기호",
+      "Color Marker"
+    ],
+    [
+      "문서 탭",
+      "Document Tab"
+    ],
+    [
+      "새 문서",
+      "New Document"
+    ],
+    [
+      "새 파일",
+      "New File"
+    ],
+    [
+      "클립보드",
+      "Clipboard"
+    ],
+    [
+      "실행취소",
+      "Undo"
+    ],
+    [
+      "잘라내기",
+      "Cut"
+    ],
+    [
+      "붙여넣기",
+      "Paste"
+    ],
+    [
+      "탭 문자",
+      "Tab Character"
+    ],
+    [
+      "키 추출",
+      "Key Extraction"
+    ],
+    [
+      "행 번호",
+      "Line Number"
+    ],
+    [
+      "도구모음",
+      "Toolbar"
+    ],
+    [
+      "편집창만",
+      "Editor Only"
+    ],
+    [
+      "코드창만",
+      "Code Only"
+    ],
+    [
+      "줄 간격",
+      "Line Spacing"
+    ],
+    [
+      "탭 너비",
+      "Tab Width"
+    ],
+    [
+      "다크모드",
+      "Dark Mode"
+    ],
+    [
+      "데이모드",
+      "Light Mode"
+    ],
+    [
+      "환경설정",
+      "Preferences"
+    ],
+    [
+      "도구목록",
+      "Toolbar"
+    ],
+    [
+      "준비 중",
+      "Preparing"
+    ],
+    [
+      "처리 중",
+      "Processing"
+    ],
+    [
+      "맨 위로",
+      "Move to Top"
+    ],
+    [
+      "프로그램",
+      "Program"
+    ],
+    [
+      "브라우저",
+      "Browser"
+    ],
+    [
+      "없습니다",
+      "not available"
+    ],
+    [
+      "있습니다",
+      "is available"
+    ],
+    [
+      "기준으로",
+      "Based on"
+    ],
+    [
+      "파일명",
+      "Filename"
+    ],
+    [
+      "줄바꿈",
+      "Line Break"
+    ],
+    [
+      "편집창",
+      "Editor"
+    ],
+    [
+      "코드창",
+      "Code"
+    ],
+    [
+      "기본값",
+      "Default"
+    ],
+    [
+      "초기화",
+      "Reset"
+    ],
+    [
+      "도움말",
+      "Help"
+    ],
+    [
+      "메뉴바",
+      "Menu Bar"
+    ],
+    [
+      "아래로",
+      "Down"
+    ],
+    [
+      "문자열",
+      "String"
+    ],
+    [
+      "글리프",
+      "Glyph"
+    ],
+    [
+      "단축키",
+      "Shortcut"
+    ],
+    [
+      "마지막",
+      "Last"
+    ],
+    [
+      "완전히",
+      "completely"
+    ],
+    [
+      "시스템",
+      "System"
+    ],
+    [
+      "사용자",
+      "User"
+    ],
+    [
+      "반대순",
+      "Reverse Order"
+    ],
+    [
+      "문자순",
+      "Character Order"
+    ],
+    [
+      "색상순",
+      "Color Order"
+    ],
+    [
+      "이름순",
+      "Name Order"
+    ],
+    [
+      "글꼴",
+      "Font"
+    ],
+    [
+      "굴림",
+      "Gulim"
+    ],
+    [
+      "돋움",
+      "Dotum"
+    ],
+    [
+      "바탕",
+      "Batang"
+    ],
+    [
+      "궁서",
+      "Gungsuh"
+    ],
+    [
+      "테마",
+      "Theme"
+    ],
+    [
+      "정보",
+      "Info"
+    ],
+    [
+      "설정",
+      "Settings"
+    ],
+    [
+      "보기",
+      "View"
+    ],
+    [
+      "찾기",
+      "Search"
+    ],
+    [
+      "삽입",
+      "Insert"
+    ],
+    [
+      "편집",
+      "Edit"
+    ],
+    [
+      "파일",
+      "File"
+    ],
+    [
+      "완료",
+      "Complete"
+    ],
+    [
+      "실패",
+      "Failed"
+    ],
+    [
+      "취소",
+      "Cancel"
+    ],
+    [
+      "확인",
+      "OK"
+    ],
+    [
+      "닫기",
+      "Close"
+    ],
+    [
+      "열기",
+      "Open"
+    ],
+    [
+      "저장",
+      "Save"
+    ],
+    [
+      "삭제",
+      "Delete"
+    ],
+    [
+      "추가",
+      "Add"
+    ],
+    [
+      "수정",
+      "Edit"
+    ],
+    [
+      "적용",
+      "Apply"
+    ],
+    [
+      "변경",
+      "Change"
+    ],
+    [
+      "선택",
+      "Select"
+    ],
+    [
+      "입력",
+      "Input"
+    ],
+    [
+      "정리",
+      "Clean Up"
+    ],
+    [
+      "오류",
+      "Error"
+    ],
+    [
+      "주의",
+      "Warning"
+    ],
+    [
+      "현재",
+      "Current"
+    ],
+    [
+      "기본",
+      "Default"
+    ],
+    [
+      "모든",
+      "All"
+    ],
+    [
+      "전체",
+      "All"
+    ],
+    [
+      "다음",
+      "Next"
+    ],
+    [
+      "이전",
+      "Previous"
+    ],
+    [
+      "위로",
+      "Up"
+    ],
+    [
+      "이름",
+      "Name"
+    ],
+    [
+      "메모",
+      "Note"
+    ],
+    [
+      "문자",
+      "Character"
+    ],
+    [
+      "색상",
+      "Color"
+    ],
+    [
+      "문서",
+      "Document"
+    ],
+    [
+      "커서",
+      "Cursor"
+    ],
+    [
+      "위치",
+      "Position"
+    ],
+    [
+      "범위",
+      "Range"
+    ],
+    [
+      "크기",
+      "Size"
+    ],
+    [
+      "너비",
+      "Width"
+    ],
+    [
+      "간격",
+      "Spacing"
+    ],
+    [
+      "비율",
+      "Ratio"
+    ],
+    [
+      "순서",
+      "Order"
+    ],
+    [
+      "목록",
+      "List"
+    ],
+    [
+      "경로",
+      "Path"
+    ],
+    [
+      "폴더",
+      "Folder"
+    ],
+    [
+      "상태",
+      "Status"
+    ],
+    [
+      "모드",
+      "Mode"
+    ],
+    [
+      "언어",
+      "Language"
+    ],
+    [
+      "없음",
+      "None"
+    ],
+    [
+      "있음",
+      "Available"
+    ],
+    [
+      "이미",
+      "Already"
+    ],
+    [
+      "최대",
+      "Maximum"
+    ],
+    [
+      "최소",
+      "Minimum"
+    ],
+    [
+      "기준",
+      "Based on"
+    ],
+    [
+      "직접",
+      "Direct"
+    ],
+    [
+      "임시",
+      "Temporary"
+    ],
+    [
+      "일반",
+      "General"
+    ],
+    [
+      "외부",
+      "External"
+    ],
+    [
+      "내장",
+      "Built-in"
+    ],
+    [
+      "자주",
+      "Frequently"
+    ],
+    [
+      "같은",
+      "same"
+    ],
+    [
+      "다른",
+      "other"
+    ],
+    [
+      "일치",
+      "Matches"
+    ],
+    [
+      "갯수",
+      "Count"
+    ],
+    [
+      "개수",
+      "Count"
+    ],
+    [
+      "켜짐",
+      "On"
+    ],
+    [
+      "꺼짐",
+      "Off"
+    ],
+    [
+      "유니코드 즐겨찾기 내보내기 실패:",
+      "Unicode favorites export failed:"
+    ],
+    [
+      "유니코드 즐겨찾기 불러오기 실패:",
+      "Unicode favorites import failed:"
+    ],
+    [
+      "현재 폰트의 글리프 목록을 읽을 수 없습니다:",
+      "Could not read the current font glyph list:"
+    ]
+  ],
+  "help": "<!--\nHelp text markup guide:\n- Keep visible help content in English.\n- Lines starting with \"# \" become section headings.\n- Lines starting with \"- \" become bullet items.\n- Blank lines separate paragraphs and bullet groups.\n- Inline `text` becomes a code span.\n- Inline **text** becomes bold text.\n- Keyboard tokens such as [Ctrl], [Alt], [Shift], [F1], [F12], [PageDown], and [Esc] become key blocks.\n- Lines starting with \"//\" are ignored.\n- This comment block is ignored by the help renderer.\n-->\n# Editor Overview\n\n- This editor is designed to open and edit txt documents containing D2R tooltip `ÿcX` color codes.\n- Most work is done in the **Editor** pane. It is the main area for reading and editing tooltip text in a human-friendly form.\n- The **Code** pane is a reference area for checking color codes, special characters, and line-break structure.\n- You can edit the Code pane directly, but new users are advised to work primarily in the Editor pane.\n- The layout and the Editor/Code pane ratio can be adjusted to suit your workflow.\n\n# Startup Splash Screen\n\n- A splash screen appears before the main window when the program starts.\n- It remains visible for at least three seconds and closes after the main interface has finished initializing.\n- The splash stays above other windows without taking focus or mouse input away from other programs.\n\n# Basic Workflow\n\n- Open a txt file or drag and drop it onto the program window.\n- Edit the text in the Editor pane.\n- Select characters and apply a color with a color chip or shortcut.\n- Check the actual `ÿcX` color codes and special characters in the Code pane.\n- Review the status bar and any warnings before saving.\n\n# Opening, Saving, and Document Tabs\n\n- The primary supported format is txt.\n- Multiple txt documents can be opened and edited in separate tabs.\n- When multiple files are dragged and dropped, only txt files are opened, in file-name order. Non-txt files in the same drop are ignored.\n- Preferences > General > **Windows Shell Menu** is enabled by default. It adds **Open with D2R Tooltip Editor** to the txt file right-click menu and uses this application icon.\n- If the editor is already running, the shell command opens the selected txt in the existing instance instead of creating a second window. On Windows 11, a classic registry shell command may appear under **Show more options**.\n- [Ctrl]+[N]: New File\n- [Ctrl]+[O]: Open\n- [Ctrl]+[S]: Save\n- [Ctrl]+[Shift]+[S]: Save As\n- [Ctrl]+[W]: Close Current Document\n- [Ctrl]+[Tab] / [Ctrl]+[PageDown]: Move to the next document tab\n- [Ctrl]+[Shift]+[Tab] / [Ctrl]+[PageUp]: Move to the previous document tab\n- When saving, redundant or unnecessary color codes are cleaned conservatively.\n- Characters that affect layout, such as line breaks, spaces, and implemented tabs, are not removed automatically.\n\n# System Tray and Exit\n\n- **Use System Tray (send to tray when closing)** is enabled by default in Preferences.\n- When enabled, the tray icon remains available while the program is running, and the window close button hides the program to the tray instead of exiting.\n- When disabled, the tray icon is hidden while the window is visible, and the close button exits after the normal save checks.\n- Double-click the tray icon to restore the hidden window.\n- Right-click the tray icon to open the **Preferences** and **Exit** menu.\n- **Exit** in the File menu is different from the close button. It offers **Exit**, **Cancel**, and **Minimize to Tray**.\n- **Exit** selected from the File menu, and **Exit** selected from the tray while the window is visible, use the normal unsaved-document checks before fully exiting.\n- When the program is hidden in the tray or minimized, selecting **Exit** from the tray closes it immediately without restoring the window or playing an animation.\n- Both normal and maximized windows slide toward the lower right when hidden and slide back in the opposite direction when restored. A maximized window keeps its size and maximized state during the animation.\n- If the executable is launched while the program is already running, no new instance is created; the existing window is restored.\n- After the program has fully exited, the next launch always starts with the window visible. There is no start-in-tray mode.\n\n# Saving Display Settings\n\n- When saving display settings is enabled, font, font size, line spacing, and alignment are stored in a TTE display-settings block at the end of the txt file.\n- A document containing this block restores those display settings the next time it is opened.\n- Display settings are editor presentation data and are separate from the tooltip text itself.\n\n# Document State and Save Warnings\n\n- A warning can be shown before saving when a document contains actual tab characters or zero-width characters (U+2060).\n- Each warning can be enabled or disabled under Preferences > Save Options.\n- Because U+2060 is invisible, check both the status bar and the save warning.\n\n# Tooltip Alignment\n\n- D2R in-game tooltips generally appear centered.\n- For editing convenience, this editor uses left alignment by default.\n- Use the toolbar to switch between left, center, and right alignment.\n- The default alignment can be changed in Preferences.\n\n# Tab Alignment Work\n\n- Implement/Restore Tabs is intended for left- or right-aligned text.\n- Tab-based alignment may not behave as intended with centered text.\n- Placing actual tab characters directly inside JSON strings used by game files can cause problems.\n- After using tab alignment, check both the save warning and the document-tab indicator.\n\n# Applying Colors\n\n- Select text in the Editor pane and click a toolbar color chip to apply its color code.\n- The Editor preview changes accordingly, while the Code pane shows the actual `ÿcX` code.\n- The default color shortcut is [Ctrl]+[Alt]+the color character.\n- For example, if green is `ÿc2`, press [Ctrl]+[Alt]+[2].\n- When **Default Color for New Input** is enabled, newly typed characters are entered with the default color where possible.\n- When disabled, new input normally follows the preceding color flow.\n\n# Fn Color Shortcuts\n\n- Hover over a color button and press [F1] through [F12] to assign that Fn shortcut.\n- Press the same Fn key again over the same button to clear the assignment.\n- A color with an Fn shortcut no longer uses its [Ctrl]+[Alt]+character shortcut.\n- Clearing the Fn assignment restores the character shortcut.\n- Fn-assigned colors are automatically moved to the front of the toolbar and ordered from [F1] to [F12].\n- Hold [Ctrl] while dragging a regular color button to reorder regular color buttons.\n- Under Preferences > Color Mapping > Character/Fn, **Default** clears only that color's Fn assignment and restores its character shortcut.\n\n# Resetting Color Mapping\n\n- A D2R patch or personal configuration may change how `ÿc` color codes correspond to displayed colors.\n- If custom color mappings have already been saved in Preferences, resetting Color Mapping may be required to see updated system defaults.\n\n# Fonts and Line Spacing\n\n- You can adjust the primary font, font size, and line spacing.\n- Defaults are tuned to resemble in-game tooltips.\n- In addition to bundled fonts, Windows system fonts and directly selected external font files are supported.\n- Frequently used fonts can be pinned as favorites.\n\n# Direct-Path and Fallback Fonts\n\n- Use Editor > Direct Path to select a primary or fallback font.\n- A font selected by direct path is copied into the program's AppData font cache, and the editor uses that copy.\n- When a direct-path font is selected again, a new copy is saved with the date and time appended to the original filename.\n- This prevents an older cached font from being reused when a different font with the same filename is selected.\n- Tooltips containing U+2060 may use the fallback font instead of the primary font in game.\n- When **Fallback font for U+2060 input** is enabled and the document contains U+2060, the Editor pane also uses the fallback font selected in Preferences. If none is selected, the bundled fallback font is used.\n- Enable `Keep ÿc0 in Code Pane` to materialize an otherwise omitted ÿc0 marker for the initial white/default-color run in the Code pane and preserve it when saving.\n\n# Copy and Paste\n\n- [Ctrl]+[Z]: Undo\n- [Ctrl]+[Y]: Redo\n- [Ctrl]+[X]: Cut\n- [Ctrl]+[C]: Copy\n- [Ctrl]+[V]: Regular Paste\n- [Ctrl]+[Shift]+[C]: Copy the font color of the first character in the selection\n- [Ctrl]+[Shift]+[V]: Apply the copied font color to the selection\n- Copy Font Color is available only when text is selected in the Editor, and the context-menu command follows the same rule.\n- Regular paste is available only through [Ctrl]+[V].\n- Paste as Text remains available from the context menu, Edit menu, and toolbar.\n- The regular-paste positions in the context and Edit menus are disabled informational items.\n- Editor copy options control whether color codes are included.\n- You can choose whether line breaks are copied as actual line breaks or as the `\\n` symbol.\n- Unicode can be copied as glyphs, escapes, or omitted.\n- Approximate color paste from externally formatted sources is attempted only with [Ctrl]+[V].\n- Context-menu, Edit-menu, and toolbar text paste reads text only to avoid clipboard permission prompts.\n- Results may differ depending on how the source implements its colors.\n\n# Text Cleanup\n\n- **Text Cleanup** processes only the selected cleanup items.\n- It can selectively remove unnecessary spaces, line breaks, tab characters, and characters that may cause encoding problems.\n- Because cleanup can affect layout, review the selected options before applying it.\n\n# JSON Key Extraction\n\n- **Extract JSON Key** keeps only the selected language-key values from pasted JSON code.\n- The default target is KoKR.\n- The default target language can be changed in Preferences.\n\n# Find, Replace, and Navigation\n\n- [Ctrl]+[F]: Find\n- [Ctrl]+[H]: Replace\n- [Ctrl]+[T]: Go to Line\n- Find/Replace can target the Editor or Code pane separately.\n- Enable `All Tabs` to search or replace across every currently open document tab using the same target mode.\n- The `?` wildcard is supported.\n- Go to Line is useful for quickly locating a specific line in a long document.\n\n# Color Conversion and Unicode Input\n\n- [Ctrl]+[K]: Convert Colors\n- [Ctrl]+[G]: Unicode Input\n- Frequently used values can be managed in the Unicode Input window.\n- Favorite glyphs can also be inserted directly from the context menu.\n\n# Large-File Mode\n\n- Large-File Mode turns on automatically when any of the following thresholds is reached.\n- Total characters: 35,000 or more, measured from the Code pane\n- Visible characters: 15,000 or more, excluding color codes\n- Lines: 1,000 or more\n- To reduce input latency, the Code pane display is paused and Editor processing is limited to roughly 1,000 lines around the current viewport.\n- The complete document and caret position remain in the internal document model. Scrolling loads the relevant area, and clicking moves the caret to that document position.\n- The Code pane is displayed again when the document shrinks or Large-File Mode is disabled. Editing and saving continue normally.\n- Some features may be unavailable or incomplete in Large-File Mode.\n- Editor and Code word wrap are temporarily disabled to protect line-number and caret stability.\n- Line numbers represent logical lines.\n- The color overlay prioritizes click and caret stability over highly detailed color preview.\n- Only lines around the current viewport are rendered in the color overlay, so colors remain visible without a separate on/off option.\n\n# Status Bar\n\n- The status bar shows the current mode, document size, caret position, and action messages.\n- Warnings and errors also appear in the status bar.\n- Check it when working with large documents or invisible characters.\n\n# Language\n\n- Use the **Language** menu next to **Info** to switch between **English** and **한국어**.\n- Korean is the default for new settings.\n- The selected language is applied immediately and restored the next time the program starts.\n- `Korean.lng` and `English.lng` are bundled with the executable.\n\n# Preferences\n\n- Light and Dark modes are supported.\n- Dark mode is the default.\n- The startup theme can be changed in Preferences.\n- Editor and Code pane colors can also be customized.\n- Save options, display-setting storage, default alignment, target language, color mapping, and other key behaviors are configurable.\n\n# User Data Cleanup\n\n- User data can remain even in a portable distribution.\n- This can include preferences, recent-file lists, search history, custom color mappings, custom font caches, and AppData/LocalAppData folders.\n- Preferences > General > **Delete User Data Created by the Program..** removes data created by the application and exits the program.\n- It does not delete the executable, user-edited txt documents, or original user font files.\n\n# Developer Mode\n\n- Developer Mode is enabled or disabled with the **Developer Mode** checkbox in the About window.\n- The checkbox takes effect immediately without a confirmation dialog.\n- Developer Mode lasts only until the program exits.\n- In normal mode, [F12] does not open Developer Tools and may be used as a color Fn shortcut.\n- In Developer Mode, [F12] opens Developer Tools.\n- The F12 color shortcut assignment is retained and only temporarily disabled while Developer Mode is active.\n\n# Developer Reference\n\n- This section is for maintaining the build source, not for normal operation.\n- If a D2R patch changes the connection between `ÿc` color codes and displayed colors, check `DEFAULT_COLOR_PALETTE` and `DEFAULT_COLOR_CODE` in `app/src/colorPalette.js`. Build-source reference.\n- In `DEFAULT_COLOR_PALETTE`, `code` is the D2R color code, `hex` is the editor display color, and `name`/`memo` are UI descriptions. Build-source reference.\n- If the user has already saved custom color mappings in Preferences, resetting Color Mapping may be required to see new system defaults.\n- Some `FocusableWidget` entries in panel layout JSON can define individual `tooltipStyle`/`fontStyle` values. Build-source reference.\n- Setting `newlineHandling` to `standard` reflects the line structure more directly and can be used for left-aligned tooltip layouts. Build-source reference.\n"
+}

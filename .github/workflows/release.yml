@@ -1,0 +1,72 @@
+name: v1.0.0 release
+run-name: v1.0.0 release
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - app/**
+      - src-tauri/**
+
+permissions:
+  contents: read
+
+concurrency:
+  group: d2r-tooltipeditor-v1
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Node.js 24
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          package-manager-cache: false
+
+      - name: Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Rust cache
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: './src-tauri -> target'
+          shared-key: v1
+          add-job-id-key: false
+          cache-on-failure: true
+
+      - name: Tauri CLI
+        shell: pwsh
+        run: npm install --global @tauri-apps/cli@2.11.4
+
+      - name: Build
+        shell: pwsh
+        run: tauri build --no-bundle
+
+      - name: Stage
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path 'dist' | Out-Null
+          $portable = 'src-tauri/target/release/TooltipEditor.exe'
+          if (-not (Test-Path $portable)) {
+            throw "Portable executable not found: $portable"
+          }
+          Copy-Item $portable 'dist/TooltipEditor.exe' -Force
+          $hash = (Get-FileHash 'dist/TooltipEditor.exe' -Algorithm SHA256).Hash.ToLowerInvariant()
+          Write-Host "TooltipEditor.exe SHA-256: $hash"
+
+      - name: Upload
+        uses: actions/upload-artifact@v7
+        with:
+          name: TooltipEditor-v1.0.0
+          path: dist/TooltipEditor.exe
+          if-no-files-found: error
+          retention-days: 30
+          compression-level: 0

@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>D2R 툴팁편집기</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div id="app" class="app-shell">
+    <nav id="menuBar" class="menu-bar" aria-label="메뉴표시줄">
+      <div class="menu-group" data-menu="file">
+        <button class="menu-button" type="button" tabindex="-1" data-mnemonic="f">파일(<u>F</u>)</button>
+        <div class="menu-popup" role="menu">
+          <button class="menu-command" data-command="file:new" tabindex="-1"><span>새 파일</span><kbd>Ctrl+N</kbd></button>
+          <button class="menu-command" data-command="file:open" tabindex="-1"><span>열기..</span><kbd>Ctrl+O</kbd></button>
+          <button class="menu-command" data-command="file:reveal" tabindex="-1"><span>현재 파일 경로 열기..</span><kbd>Ctrl+Shift+O</kbd></button>
+          <button class="menu-command" data-command="file:save" tabindex="-1"><span>저장</span><kbd>Ctrl+S</kbd></button>
+          <button class="menu-command" data-command="file:saveAs" tabindex="-1"><span>다른이름으로 저장..</span><kbd>Ctrl+Shift+S</kbd></button>
+          <button class="menu-command" data-command="file:close" tabindex="-1"><span>현재 문서 닫기</span><kbd>Ctrl+W</kbd></button>
+          <div class="menu-separator recent-only"></div>
+          <div id="recentDocumentsMenu" class="recent-documents recent-only"></div>
+          <div class="menu-separator recent-only"></div>
+          <button class="menu-command" data-command="app:exit" tabindex="-1"><span>종료</span></button>
+        </div>
+      </div>
+
+      <div class="menu-group" data-menu="edit">
+        <button class="menu-button" type="button" tabindex="-1" data-mnemonic="e">편집(<u>E</u>)</button>
+        <div class="menu-popup" role="menu">
+          <button class="menu-command" data-command="edit:undo" tabindex="-1"><span>실행취소</span><kbd>Ctrl+Z</kbd></button>
+          <button class="menu-command" data-command="edit:redo" tabindex="-1"><span>다시 실행</span><kbd>Ctrl+Y</kbd></button>
+          <div class="menu-separator"></div>
+          <button class="menu-command" data-command="edit:cut" tabindex="-1"><span>잘라내기</span><kbd>Ctrl+X</kbd></button>
+          <button class="menu-command" data-command="edit:copyPath" tabindex="-1"><span>클립보드에 현재 경로/파일명 복사</span></button>
+          <button class="menu-command" data-command="edit:copy" tabindex="-1"><span>복사</span><kbd>Ctrl+C</kbd></button>
+          <button class="menu-command" data-command="edit:paste" tabindex="-1" disabled aria-disabled="true"><span>일반 붙여넣기는 단축키(Ctrl+V)로만 이용</span></button>
+          <button class="menu-command" data-command="edit:pastePlain" tabindex="-1"><span>텍스트로 붙여넣기</span></button>
+          <button class="menu-command" data-command="edit:delete" tabindex="-1"><span>삭제</span></button>
+          <button class="menu-command" data-command="edit:selectAll" tabindex="-1"><span>모두 선택</span><kbd>Ctrl+A</kbd></button>
+          <div class="menu-separator"></div>
+          <button class="menu-command" data-command="edit:textCleanup" tabindex="-1"><span>텍스트 정리..</span><kbd>Ctrl+L</kbd></button>
+          <button class="menu-command" data-command="edit:jsonKeyExtract" tabindex="-1"><span>JSON 키 추출..</span></button>
+          <div class="menu-separator"></div>
+          <button class="menu-command" data-command="edit:implementTabs" tabindex="-1"><span>탭 구현</span></button>
+          <button class="menu-command" data-command="edit:restoreTabs" tabindex="-1"><span>탭 복원..</span></button>
+          <div class="menu-separator"></div>
+          <button class="menu-command" data-command="edit:trimBoth" tabindex="-1"><span>양쪽 끝 공백 제거</span></button>
+          <button class="menu-command" data-command="edit:trimLineStart" tabindex="-1"><span>행 시작 공백 제거</span></button>
+          <button class="menu-command" data-command="edit:trimLineEnd" tabindex="-1"><span>행 꼬리 공백 제거</span></button>
+          <div class="menu-separator"></div>
+          <button class="menu-command" data-command="edit:removeEol" tabindex="-1"><span>줄바꿈(EOL) 제거</span></button>
+          <button class="menu-command" data-command="edit:removeDuplicateEol" tabindex="-1"><span>중복 줄바꿈 제거</span></button>
+          <button class="menu-command" data-command="edit:removeEolAndSpaces" tabindex="-1"><span>줄바꿈 및 공백 제거</span></button>
+          <button class="menu-command" data-command="edit:removeTabs" tabindex="-1"><span>탭 문자 제거</span></button>
+        </div>
+      </div>
+
+      <div class="menu-group" data-menu="insert">
+        <button class="menu-button" type="button" tabindex="-1" data-mnemonic="i">삽입(<u>I</u>)</button>
+        <div class="menu-popup" role="menu">
+          <button class="menu-command" data-command="insert:zeroWidth" tabindex="-1"><span>0 너비 문자(U+2060) 입력</span></button>
+          <button class="menu-command" data-command="insert:removeZeroWidth" tabindex="-1"><span>모든 0 너비 문자(U+2060) 삭제</span></button>
+          <div class="menu-separator"></div>
+          <button class="menu-command" data-command="insert:unicodeDialog" tabindex="-1"><span>유니코드 입력기..</span><kbd>Ctrl+G</kbd></button>
+        </div>
+      </div>
+
+      <div class="menu-group" data-menu="search">
+        <button class="menu-button" type="button" tabindex="-1" data-mnemonic="t">찾기(<u>T</u>)</button>
+        <div class="menu-popup" role="menu">
+          <button class="menu-command" data-command="find:find" tabindex="-1"><span>찾기..</span><kbd>Ctrl+F</kbd></button>
+          <button class="menu-command" data-command="find:replace" tabindex="-1"><span>바꾸기..</span><kbd>Ctrl+H</kbd></button>
+          <button class="menu-command" data-command="find:colorConvert" tabindex="-1"><span>색상변환..</span><kbd>Ctrl+K</kbd></button>
+          <div class="menu-separator"></div>
+          <button class="menu-command" data-command="find:nextTab" tabindex="-1"><span>다음 탭</span><kbd>Ctrl+PageDown</kbd></button>
+          <button class="menu-command" data-command="find:prevTab" tabindex="-1"><span>이전 탭</span><kbd>Ctrl+PageUp</kbd></button>
+          <div class="menu-separator"></div>
+          <button class="menu-command" data-command="find:gotoLine" tabindex="-1"><span>행 번호 찾아가기..</span><kbd>Ctrl+T</kbd></button>
+        </div>
+      </div>
+
+      <div class="menu-group" data-menu="view">
+        <button class="menu-button" type="button" tabindex="-1" data-mnemonic="v">보기(<u>V</u>)</button>
+        <div class="menu-popup" role="menu">
+          <label class="menu-check" tabindex="-1"><input id="editorWrapToggle" type="checkbox" checked tabindex="-1" /> <span>편집창 자동 줄바꿈</span></label>
+          <label class="menu-check" tabindex="-1"><input id="codeWrapToggle" type="checkbox" checked tabindex="-1" /> <span>코드창 자동 줄바꿈</span></label>
+          <div class="menu-separator"></div>
+          <button class="menu-command layout-menu-command" data-command="layout:right-editor" data-layout-mode="right-editor" tabindex="-1"><span>좌측 편집창으로 보기 (현재 기본값)</span><kbd class="layout-check-mark"></kbd></button>
+          <button class="menu-command layout-menu-command" data-command="layout:split" data-layout-mode="split" tabindex="-1"><span>우측 편집창으로 보기</span><kbd class="layout-check-mark"></kbd></button>
+          <button class="menu-command layout-menu-command" data-command="layout:bottom-code" data-layout-mode="bottom-code" tabindex="-1"><span>상단 편집창으로 보기</span><kbd class="layout-check-mark"></kbd></button>
+          <button class="menu-command layout-menu-command" data-command="layout:vertical" data-layout-mode="vertical" tabindex="-1"><span>하단 편집창으로 보기</span><kbd class="layout-check-mark"></kbd></button>
+          <button class="menu-command layout-menu-command" data-command="layout:editor-only" data-layout-mode="editor-only" tabindex="-1"><span>편집창만 보기</span><kbd class="layout-check-mark"></kbd></button>
+          <button class="menu-command layout-menu-command" data-command="layout:code-only" data-layout-mode="code-only" tabindex="-1"><span>코드창만 보기</span><kbd class="layout-check-mark"></kbd></button>
+        </div>
+      </div>
+
+      <div class="menu-group" data-menu="settings">
+        <button class="menu-button" type="button" tabindex="-1" data-mnemonic="s">설정(<u>S</u>)</button>
+        <div class="menu-popup" role="menu">
+          <button class="menu-command" data-command="settings:preferences" tabindex="-1"><span>환경설정..</span></button>
+        </div>
+      </div>
+
+      <div class="menu-group" data-menu="info">
+        <button class="menu-button" type="button" tabindex="-1" data-mnemonic="p">정보(<u>P</u>)</button>
+        <div class="menu-popup" role="menu">
+          <button class="menu-command" data-command="info:help" tabindex="-1"><span>도움말</span></button>
+          <div class="menu-separator"></div>
+          <button class="menu-command" data-command="info:about" tabindex="-1"><span>버전 정보</span></button>
+        </div>
+      </div>
+      <span class="menu-language-separator" aria-hidden="true"></span>
+      <div class="menu-group language-menu-group" data-menu="language" data-i18n-skip>
+        <button class="menu-button" type="button" tabindex="-1" data-mnemonic="l">Language(<u>L</u>)</button>
+        <div class="menu-popup language-menu-popup" role="menu">
+          <button class="menu-command language-menu-command" data-command="language:en" data-language-code="en" role="menuitemradio" aria-checked="false" tabindex="-1"><span>English</span><kbd class="language-check-mark"></kbd></button>
+          <button class="menu-command language-menu-command" data-command="language:ko" data-language-code="ko" role="menuitemradio" aria-checked="true" tabindex="-1"><span>한국어</span><kbd class="language-check-mark"></kbd></button>
+        </div>
+      </div>
+      <div class="menu-version" aria-label="도움말과 버전 정보">
+        <button id="helpButton" class="menu-version-button menu-help-button" type="button" data-command="info:help" title="도움말" aria-label="도움말">?</button>
+        <span class="menu-version-separator" aria-hidden="true"></span>
+        <button id="versionBadge" class="menu-version-button menu-version-badge" type="button" data-command="info:about" title="버전 정보" aria-label="버전 정보">v1.0.0</button>
+      </div>
+    </nav>
+
+    <section class="tool-strip" aria-label="도구목록">
+      <button class="tool-button" type="button" data-command="file:new" title="새 파일 Ctrl+N">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 1.5h6l4 4v9H3z"/><path d="M9 1.5v4h4"/></svg><span>새 파일</span>
+      </button>
+      <button class="tool-button" type="button" data-command="file:open" title="열기 Ctrl+O">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M1.5 5.5h5l1.3 1.5h6.7l-1.4 6.5H2.3z"/><path d="M2.5 4h4l1.2 1.5H14"/></svg><span>열기</span>
+      </button>
+      <button class="tool-button" type="button" data-command="file:save" title="저장 Ctrl+S">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 2h10.5L14 3.5V14H2z"/><path d="M4 2v4h7V2"/><path d="M4 10h8v4H4z"/></svg><span>저장</span>
+      </button>
+      <button class="tool-button" type="button" data-command="file:saveAs" title="다른이름으로 저장 Ctrl+Shift+S">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 2h10.5L14 3.5V14H2z"/><path d="M4 2v4h7V2"/><path d="M4 10h5v4H4z"/><path d="M10 11l3 3"/><path d="M13 11l-3 3"/></svg><span>다른 이름 저장</span>
+      </button>
+      <span class="tool-separator"></span>
+      <button class="tool-button" type="button" data-command="edit:undo" title="실행취소 Ctrl+Z"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 4L3 7l3 3"/><path d="M4 7h6a3 3 0 1 1 0 6H8"/></svg><span>실행취소</span></button>
+      <button class="tool-button" type="button" data-command="edit:redo" title="다시 실행 Ctrl+Y"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 4l3 3-3 3"/><path d="M12 7H6a3 3 0 1 0 0 6h2"/></svg><span>다시 실행</span></button>
+      <span class="tool-separator"></span>
+      <button class="tool-button" type="button" data-command="edit:cut" title="잘라내기 Ctrl+X"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="4" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><path d="M5.5 10.5L12 3"/><path d="M10.5 10.5L4 3"/></svg><span>잘라내기</span></button>
+      <button class="tool-button" type="button" data-command="edit:copy" title="복사 Ctrl+C"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5 5h8v9H5z"/><path d="M3 2h8v3"/><path d="M3 2v9h2"/></svg><span>복사</span></button>
+      <button class="tool-button" type="button" data-command="edit:pastePlain" title="텍스트로 붙여넣기"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5 3h6v3H5z"/><path d="M3 5h10v9H3z"/></svg><span>텍스트 붙여넣기</span></button>
+      <span class="tool-separator paste-cleanup-separator" aria-hidden="true"></span>
+      <button class="tool-button" type="button" data-command="edit:textCleanup" title="텍스트 정리"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 3h10"/><path d="M4 6h8"/><path d="M5 9h6"/><path d="M6 12h4"/></svg><span>텍스트 정리</span></button>
+      <button class="tool-button" type="button" data-command="edit:jsonKeyExtract" title="JSON 키 추출"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5 2H3.5A1.5 1.5 0 0 0 2 3.5v3A1.5 1.5 0 0 1 .5 8 1.5 1.5 0 0 1 2 9.5v3A1.5 1.5 0 0 0 3.5 14H5"/><path d="M11 2h1.5A1.5 1.5 0 0 1 14 3.5v3A1.5 1.5 0 0 0 15.5 8 1.5 1.5 0 0 0 14 9.5v3A1.5 1.5 0 0 1 12.5 14H11"/><path d="M6 5h4"/><path d="M6 8h4"/><path d="M6 11h4"/></svg><span>JSON 키 추출</span></button>
+      <span class="tool-separator"></span>
+      <label class="tool-select-label" title="코드창/편집창의 배치를 전환합니다."><span>레이아웃</span><select id="layoutModeSelect" class="tool-select" aria-label="레이아웃 선택">
+        <option value="right-editor">좌측 편집창 (기본값)</option>
+        <option value="split">우측 편집창</option>
+        <option value="bottom-code">상단 편집창</option>
+        <option value="vertical">하단 편집창</option>
+        <option value="editor-only">편집창만</option>
+        <option value="code-only">코드창만</option>
+      </select><button id="layoutDefaultButton" class="tool-mini-button" type="button" title="환경설정의 현재 기본값 레이아웃으로 전환합니다.">기본값으로</button></label>
+      <label class="tool-check" title="양쪽 창의 위치를 편집창 행 기준으로 최대한 맞춥니다."><input id="scrollSyncToggle" type="checkbox" checked /> <span>스크롤 동기화</span></label>
+    </section>
+    <section class="render-strip" aria-label="렌더링 도구모음">
+      <label class="render-control font-picker-control"><span>글꼴</span>
+        <div id="renderFontPicker" class="render-font-picker">
+          <button id="renderFontButton" class="render-font-button" type="button"><span id="renderFontLabel">[TTE 내장] Vanilla</span><span class="render-arrow">▾</span></button>
+          <div id="renderFontPanel" class="render-font-panel" hidden>
+            <input id="renderFontSearch" class="render-font-search" type="text" placeholder="글꼴 검색" autocomplete="off" spellcheck="false" />
+            <div id="renderFontStatus" class="render-font-status">글꼴 목록 준비 중</div>
+            <div id="renderFontViewport" class="render-font-viewport" role="listbox" aria-label="글꼴 목록">
+              <div id="renderFontSpacer" class="render-font-spacer"></div>
+              <div id="renderFontItems" class="render-font-items"></div>
+            </div>
+          </div>
+        </div>
+      </label>
+      <div class="render-control render-pt-control" role="group" aria-label="글꼴 크기"><span>크기</span><input id="renderFontSizeInput" type="number" min="6" max="999" step="1" value="25" autocomplete="off"><span class="unit">pt</span><button id="renderFontSizeUp" class="render-spin-button" type="button" aria-label="글꼴 크기 키우기">＋</button><button id="renderFontSizeDown" class="render-spin-button" type="button" aria-label="글꼴 크기 줄이기">－</button><select id="renderFontSizePreset" aria-label="지정 크기"></select></div>
+      <label class="render-control render-line-control"><span>줄 간격</span><input id="renderLineHeightInput" type="number" min="6" max="2000" step="1" value="27" autocomplete="off"><span class="unit">pt</span></label><label class="render-control render-tab-control" title="편집창에서 Tab 문자의 표시 폭을 조절합니다. 실제 탭 문자는 유지됩니다."><span>탭</span><input id="renderTabWidthSlider" type="range" min="1" max="32" step="1" value="4" aria-label="탭 너비 슬라이더"><input id="renderTabWidthInput" type="number" min="1" max="32" step="1" value="4" autocomplete="off" aria-label="탭 너비"><span class="unit">칸</span></label><button id="renderResetFontButton" class="render-reset-button" type="button">설정 기본값</button><span class="tool-separator render-align-separator" aria-hidden="true"></span>
+      <div class="render-align-group" role="group" aria-label="편집창 정렬">
+        <button id="renderAlignLeft" class="render-align-button" type="button" data-align="left">왼쪽 맞춤</button>
+        <button id="renderAlignCenter" class="render-align-button" type="button" data-align="center">가운데 맞춤</button>
+        <button id="renderAlignRight" class="render-align-button" type="button" data-align="right">오른쪽 맞춤</button>
+      </div>
+      <span class="tool-separator tab-convert-render-separator" aria-hidden="true"></span>
+      <button id="tabImplementButton" class="tool-button tab-convert-button instant-tooltip-control" type="button" data-command="edit:implementTabs" data-tooltip="왼쪽 맞춤/오른쪽 맞춤에서만 유효합니다. 현재 글꼴/탭 너비 기준으로 탭 문자를 검은 점·공백 조합으로 변환합니다.">탭 구현</button>
+      <button id="tabRestoreButton" class="tool-button tab-convert-button" type="button" data-command="edit:restoreTabs">탭 복원</button>
+      <button id="themeToggleButton" class="theme-toggle-button" type="button">☾ 다크모드로 전환</button>
+    </section>
+
+    <main id="splitLayout" class="split-layout">
+      <div id="documentTabs" class="document-tabs" aria-label="문서 탭"></div>
+      <section class="pane code-pane" aria-label="코드창 패널">
+        <div class="pane-title"><span>코드창</span></div>
+        <textarea id="codeText" class="editor-box wrap-enabled" spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off" wrap="soft" aria-label="코드창"></textarea>
+      </section>
+      <div id="splitter" class="splitter" role="separator" aria-label="코드창과 편집창 너비 조절"></div>
+      <section class="pane editor-pane" aria-label="편집창 패널">
+        <div class="pane-title editor-title-row"><span class="editor-title-main">편집창</span><span id="editorFileStatus" class="editor-file-status"></span></div>
+        <div class="editor-with-lines">
+          <div id="editorLineGutter" class="line-gutter" aria-hidden="true"><div id="editorLineGutterInner" class="line-gutter-inner"></div></div>
+          <textarea id="editorText" class="editor-box editor-box-with-gutter wrap-enabled" spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off" wrap="soft" aria-label="편집창"></textarea>
+        </div>
+      </section>
+    </main>
+
+    <footer id="statusBar" class="status-bar status-bar-layout" aria-label="상태표시줄">
+      <div id="codeStatusPane" class="status-pane status-code-pane" aria-label="코드창 상태">
+        <span id="codeStatusSlots" class="status-slots status-code-slots"></span>
+      </div>
+      <div id="statusSplitter" class="status-splitter" aria-hidden="true"></div>
+      <div id="editorStatusPane" class="status-pane status-editor-pane" aria-label="편집창 상태">
+        <span id="statusMessage" class="status-message">준비됨</span>
+        <span id="statusSlots" class="status-slots status-editor-slots"></span>
+      </div>
+    </footer>
+  </div>
+
+  <input id="fallbackOpenFile" type="file" accept=".txt,text/plain" hidden />
+
+  <div id="modalRoot" class="modal-root" hidden></div>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
