@@ -2,6 +2,9 @@
 
 A portable text and tooltip editor for Diablo II: Resurrected.
 
+> **TooltipEditor does not directly modify in-game item tooltips.**
+> It is a **tool for mod creators** that makes it easier to edit the text strings, D2R color codes, and formatting used as values in D2R mod JSON files.
+
 ## Download
 
 Download the latest Windows build from **GitHub Releases**.
@@ -14,15 +17,23 @@ The application is portable. No installer is required.
 
 ## Features
 
-- Synchronized visual editor and raw D2R color-code view
-- Multi-document tabs
-- Find and replace across all open tabs
-- D2R font-color copy and paste
-- Unicode glyph browser with favorites, edit mode, and zero-width character tools
-- Tab-width visualization and restoration
-- Large-text editing support
+- Real-time D2R tooltip preview
+- D2R color-code editing and conversion
+- Color formatting copy / paste
+- Unicode Input with editable favorites
+- Custom font selection
+- Built-in vanilla D2R font preview
+- Unicode favorites import / export
+- JSON key extraction
+- Text cleanup tools
+- Multiple document tabs
+- Find / Replace utilities
+- D2R Editor / Code dual view
+- Various copy-format options
+- Tab-style spacing and alignment using character-based filler patterns
+- Light / Dark themes
+- Korean / English UI
 - Optional Windows `.txt` context-menu integration
-- Korean and English UI
 
 ## Important: Fonts and Unicode Glyphs
 
@@ -43,6 +54,12 @@ If you want to use PUA glyphs:
 
 The vanilla-font preview in the Unicode Input window is intended as a reference for how a code point behaves with the built-in vanilla font set. A missing glyph is not automatically replaced with a community font.
 
+## Close Button and System Tray
+
+By default, clicking the window **Close (X)** button minimizes TooltipEditor to the Windows system tray instead of fully exiting the program.
+
+If you prefer the Close button to exit the application normally, disable the system-tray behavior in **Preferences**.
+
 ## Practical Usage Notes
 
 ### 1. Opening and saving `.txt` files
@@ -55,7 +72,7 @@ TooltipEditor does not force itself to become the Windows default application fo
 
 ### 2. Useful shortcuts
 
-- Select text and press **Ctrl+Alt+[color character]** to apply the mapped D2R color. Example: `Ctrl+Alt+2` applies the color mapped to `ÿc2`.
+- Select text and press **Ctrl+Alt+[color key]** to apply the mapped D2R color. Example: `Ctrl+Alt+2` applies the color mapped to `ÿc2`.
 - **Ctrl+Shift+C** copies the font color of the first character in the current Editor selection.
 - **Ctrl+Shift+V** applies that copied font color to the selected text.
 
@@ -75,17 +92,29 @@ When converting these aliases, enable **Keep `ÿc0` in Code Pane** if you need e
 
 ### 5. About zero-width characters (`U+2060`)
 
-Using a zero-width character to trigger a fallback font is a workaround rather than an official D2R text-format feature. Its behavior can vary depending on the font and implementation, and malformed or unsupported Unicode may appear incorrectly in game.
+TooltipEditor includes an option that uses the zero-width Unicode character `U+2060` to help trigger font fallback in certain D2R tooltip strings. This is a workaround rather than an officially supported D2R text-format feature, so results can vary depending on the font, Unicode character, mod setup, and game rendering behavior.
 
-Use the `U+2060` tools carefully and verify the result in your actual mod/game setup.
+Unsupported Unicode may sometimes appear as a blank character, a replacement glyph, or `*`. Treat this as an experimental compatibility feature and verify the result in your actual mod/game setup.
 
-### 6. Editor/Code scroll synchronization
+Because invisible `U+2060` characters can be easy to leave in a value by mistake, TooltipEditor indicates their presence in the status bar and, by default, asks for confirmation when saving a document that still contains them. They can also be removed through **Text Cleanup**.
+
+### 6. Tab-style spacing and alignment
+
+D2R tooltip strings do not provide ordinary text-editor-style tab alignment, so TooltipEditor provides a visual workaround. **Implement Tabs** converts actual Tab characters into character-based filler patterns measured against the current font and tab width, then renders those fillers in black so they blend into D2R's normally dark tooltip background.
+
+If the filler text is still noticeable with your tooltip design, a darker tooltip background can help it blend in more naturally. This is a visual workaround rather than true tab rendering, so the result can vary with the font, alignment, tooltip layout, and mod configuration. Tab implementation is intended primarily for left- or right-aligned layouts; centered layouts may not align as expected.
+
+> **Important:** Do not leave literal Tab characters inside a final JSON string unintentionally. Depending on the file structure, they can make the JSON invalid or cause unintended behavior. TooltipEditor warns before saving documents that contain literal Tab characters by default, and **Text Cleanup** can remove or replace them.
+
+TooltipEditor can also attempt to restore its generated tab filler patterns back to Tab characters or replace them with custom text. Exact restoration may not always be possible.
+
+### 7. Editor/Code scroll synchronization
 
 The **Editor** pane is the primary editing surface. The **Code** pane is mainly a reference view for raw color codes and special characters.
 
 Scroll Sync tries to keep both panes near the same logical area, but it should be treated as an approximate navigation aid rather than exact cursor-position synchronization.
 
-### 7. Editor copy options
+### 8. Editor copy options
 
 The Editor copy options can always be reset with the **Default** button.
 
@@ -96,6 +125,16 @@ By default, copied text can preserve the normal tooltip-code form. If you want c
 - copy Unicode as actual glyphs or as Unicode escape strings.
 
 These options affect clipboard output only; they do not rewrite the document merely by changing the copy settings.
+
+## Project Status
+
+TooltipEditor was created through **vibe coding with the help of ChatGPT**.
+
+There are currently **no plans to add support for additional languages or to introduce major new features**. The program includes an in-app **Help** section with more detailed explanations of individual tools and behavior.
+
+## Modification and Redistribution
+
+You are free to modify and redistribute this work in any form as long as it is **not used for commercial purposes**. Please credit the original author and clearly state the source.
 
 ## Requirements
 
